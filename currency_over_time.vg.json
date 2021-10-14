@@ -1,0 +1,113 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/currency_change_everything_pivoted.csv"
+  },
+  "background": "#f9f7f1",
+  "transform": [
+      {"calculate": "datum.Change", "as": "Percentage Change (%)"}
+  ],
+  "vconcat": [
+    {
+      "width": 700,
+      "height": 300,
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "scale": {"domain": {"param": "brush"}},
+          "axis": {"title": "", "tickCount": 10}
+        }
+      },
+      "layer": [
+        {
+          "encoding": {
+            "y": {"field": "Percentage Change (%)", "type": "quantitative"},
+            "color": {"field": "Currency", "type": "nominal"},
+            "opacity": { "condition": {"param": "currency_highlight", "value": 1.2}, "value": 0.2 }
+          },
+          "layer": [
+            {
+              "mark": "line",
+              "params": [
+                { 
+                  "name": "currency_highlight", 
+                  "select": {"type": "point", "fields": ["Currency"]}, 
+                  "bind": "legend" 
+                }
+              ]
+            },
+            {
+              "params": [{
+                "name": "label",
+                "select": {
+                  "type": "point",
+                  "encodings": ["x"],
+                  "nearest": true,
+                  "on": "mouseover",
+                  "clear": "mouseout"
+                }
+              }],
+              "mark": "point",
+              "encoding": {
+                "opacity": {
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "transform": [{"filter": {"param": "label", "empty": false}}],
+          "layer": [
+            {
+              "mark": {"type": "rule", "color": "gray"}
+            },
+            {
+              "encoding": {
+                "text": {"type": "quantitative", "field": "Percentage Change (%)"},
+                "x": {"type": "temporal", "field": "Date"},
+                "y": {"type": "quantitative", "field": "Percentage Change (%)"}
+              },
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text", 
+                    "align": "left", 
+                    "dx": 5, 
+                    "dy": -15,
+                    "fontSize": 15
+                  },
+                  "encoding": {
+                    "color": {"type": "nominal", "field": "Currency"},
+                    "opacity": {
+                      "condition": {"param": "currency_highlight", "value": 1},
+                      "value": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 700,
+      "height": 60,
+      "mark": "line",
+      "params": [
+        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+      ],
+      "encoding": {
+        "x": {"field": "Date", "type": "temporal", "axis": {"tickCount": 10}},
+        "y": {
+          "field": "Percentage Change (%)",
+          "type": "quantitative",
+          "axis": {"tickCount": 3, "grid": false}
+        },
+        "color": {"field": "Currency", "type": "nominal"}
+      }
+    }
+  ]
+}

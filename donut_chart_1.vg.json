@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/top20_but_2000s.csv"
+  },
+  "title": {"text": "2000", "orient": "bottom"},
+  "width": 150,
+  "height": 150,
+  "background": "#f9f7f1",
+  "transform": [
+      {"calculate": "datum.Value/1000000000", "as": "Reserves in Billions USD"},
+      {"filter": "datum.Year == 2000"}
+  ],
+  "layer": [{
+    "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+  },{
+    "mark": {"type": "text", "radiusOffset": 10},
+    "encoding": {
+      "text": {"field": "Country", "type": "nominal"}
+    },
+    "transform": [
+        {"filter": "datum.Country == 'China'"}
+    ]
+  }],
+  "encoding": {
+    "theta": {"field": "Value", "type": "quantitative", "stack": true},
+    "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+    "color": {"field": "Country", "type": "nominal", "legend": null},
+    "tooltip": [
+      {"field": "Country", "type": "nominal", "title": "Country"},
+      {"field": "Reserves in Billions USD", "type": "quantitative", "format": "0.1f"},
+      {"field": "Year", "type": "nominal"}
+    ]
+  },
+  "config": {
+    "view": {
+       "stroke": "transparent"
+    }
+  }
+}

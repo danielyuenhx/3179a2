@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
@@ -18,19 +17,26 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
     
     <script>
-        var vg_map = "map.vg.json"; 
 
+        var vg_currency_over_time = "currency_over_time.vg.json"; 
+        vegaEmbed("#line-chart", vg_currency_over_time).then(function(result) { 
+        }).catch(console.error);
+
+        var vg_map = "map.vg.json"; 
         vegaEmbed("#map", vg_map).then(function(result) { 
         }).catch(console.error);
 
-        var vg_reserves_over_time = "bump_chart.vg.json"; 
-
-        vegaEmbed("#chart-1", vg_reserves_over_time).then(function(result) { 
+        var vg_donut = "donut_chart_1.vg.json"; 
+        vegaEmbed("#donut-chart_1", vg_donut).then(function(result) { 
         }).catch(console.error);
-
-        var vg_currency_over_time = "currency_over_time.vg.json"; 
-
-        vegaEmbed("#line-chart", vg_currency_over_time).then(function(result) { 
+        var vg_donut = "donut_chart_2.vg.json"; 
+        vegaEmbed("#donut-chart_2", vg_donut).then(function(result) { 
+        }).catch(console.error);
+        var vg_donut = "donut_chart_3.vg.json"; 
+        vegaEmbed("#donut-chart_3", vg_donut).then(function(result) { 
+        }).catch(console.error);
+        var vg_donut = "donut_chart_4.vg.json"; 
+        vegaEmbed("#donut-chart_4", vg_donut).then(function(result) { 
         }).catch(console.error);
     </script>
 
@@ -123,7 +129,7 @@
     <div class="pure-g">
         <div class="pure-u-3-24"></div>
         <div class="pure-u-3-4 subtitle">
-            A visualisation by Daniel Yuen, for fit3179 - 2021
+            A visualisation by Daniel Yuen, fit3179 - 2021
         </div>
         <div class="pure-u-3-24"></div>
 
@@ -194,22 +200,35 @@
         <div class="pure-u-3-24"></div>
     </div>
 
-    <!-- <div class="pure-g">
+    <div class="pure-g">
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-3-4" style="text-align: center;">
+            <div id="donut-chart_1">
+            </div>
+            <div id="donut-chart_2">
+            </div>
+            <div id="donut-chart_3">
+            </div>
+            <div id="donut-chart_4">
+            </div>
+        </div>
+        <div class="pure-u-3-24"></div>
+        
         <div class="pure-u-3-24"></div>
         <div class="pure-u-9-24">
             <div class="subtext left">
+                <p><b>China</b> has one of the highest-valued gold reserves in the world. Throughout
+                    2000-2015, it has been increasing tremendously and is currently the <b>most-valued</b>
+                    gold reserve worldwide. </p>
             </div>
         </div>
         <div class="pure-u-9-24">
             <div class="subtext right">
-            <p><b>Drag the slider to view values from specific years</b> from 2000 up to 2018.
-            </p>
-            <p>You can <b>hover over each country</b> to view their precise value.</b>
+            <p><b>Hover over each portion</b> for more details.
             </p>
             </div>
         </div>
-        <div class="pure-u-3-24"></div>
-    </div> -->
+    </div>
 
     <div class="pure-g">
         <div class="pure-u-3-24"></div>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    
+    <script>
+        var vg_map = "map.vg.json"; 
+
+        vegaEmbed("#map", vg_map).then(function(result) { 
+        }).catch(console.error);
+
+        var vg_reserves_over_time = "bump_chart.vg.json"; 
+
+        vegaEmbed("#chart-1", vg_reserves_over_time).then(function(result) { 
+        }).catch(console.error);
+
+        var vg_currency_over_time = "currency_over_time.vg.json"; 
+
+        vegaEmbed("#line-chart", vg_currency_over_time).then(function(result) { 
+        }).catch(console.error);
+    </script>
+
+    <style>
+        body {
+            font-family: 'Noto Serif', serif;
+            font-weight: 550;
+            font-size: 1rem;
+            color: #2f2f2f;
+            background-color: #f9f7f1;
+        }
+        b {
+            font-size: 1.25rem;
+        }
+        #map {
+            text-align: center;
+            display: block;
+        }
+        #chart-1 {
+            padding: 30px;
+        }
+        #line-chart {
+            text-align: center;
+            display: block;
+            padding: 20px;
+        }
+        .text {
+            padding: 0px 0px 50px 50px;
+        }
+        #title {
+            font-family: 'Lora', serif;
+            font-weight: 900;
+            font-size: 3.75rem;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: #2f2f2f;
+        }
+        .subtitle {
+            border-top: 4px double #2f2f2f;
+            border-bottom: 4px double #2f2f2f;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 1rem 0 1rem 0;
+        }
+        .pure-u-3-4 {
+            font-family: 'Noto Serif', serif !important;
+            font-weight: 575;
+            font-size: 1rem;
+            color: #2f2f2f;
+        }
+        #heading {
+            font-family: 'Gilda Display', serif;
+            font-size: 2.5rem;
+            font-style: italic;
+            font-weight: bolder;
+            margin-top: 20px;
+        }
+        .subtext {
+            font-family: 'Noto Serif', serif !important;
+            font-size: 1rem;
+            color: #2f2f2f;
+        }
+        .left {
+            padding-left: 15px;
+            padding-right: 15px;
+            border-right: 1px solid #2f2f2f;
+        }
+        .right {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .section {
+            border-top: 4px double #2f2f2f;
+            margin-top: 30px;
+        }
+        .footer {
+            background-color: #dbdbdb;
+            padding: 10px;
+            font-size: 0.75rem;
+        }
+    </style>
+    
+    <title>Gold: Is it so Important?</title> 
+</head> 
+
+<body> 
+    <div id="title">Gold: Is it so Important?</div>
+    <div class="pure-g">
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-3-4 subtitle">
+            A visualisation by Daniel Yuen, for fit3179 - 2021
+        </div>
+        <div class="pure-u-3-24"></div>
+
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-3-4">
+            <div id="heading">Change in Gold Prices From 2000-2020</div>
+        </div>
+        <div class="pure-u-3-24"></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-5-5">
+            <div id="line-chart"></div>
+        </div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-9-24">
+            <div class="subtext left">
+                <p><b>Gold has always been an important factor</b> in world economics. Examining the prices of gold
+                    across different countries is a good estimate of their economic status. </p>
+                <p>Throughout the years, the price of gold of countries worldwide have been <b>steadily
+                    rising.</b> The chart above shows the percentage change in price of gold of ten different 
+                    currencies from 2000 to 2020.</p>
+            </div>
+        </div>
+        <div class="pure-u-9-24">
+            <div class="subtext right">
+            <p><b>Click on the legend to filter out values.</b> Multi-selecting compares the values of 
+                different currencies.
+            </p>
+            <p>If you want to isolate a period of time in the chart, <b>select the area you wish to
+                view in the bottom graph.</b>
+            </p>
+            </div>
+        </div>
+        <div class="pure-u-3-24"></div>
+        
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-3-4 section">
+            <div id="heading">Gold Reserves by Country</div>
+        </div>
+        <div class="pure-u-3-24"></div>
+    </div>
+    
+    <div id="map"></div>
+
+    <div class="pure-g">
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-9-24">
+            <div class="subtext left">
+                <p>A <b>gold reserve</b> is the gold held by a national central bank. It is important
+                to support the value of national currency. </p>
+                <p>Similar to the price of gold, the size of gold reserves worldwide have been <b>
+                    rising.</b> The map above shows the value of each country's gold reserve valued
+                    in billions USD.</p>
+            </div>
+        </div>
+        <div class="pure-u-9-24">
+            <div class="subtext right">
+            <p><b>Drag the slider to view values from specific years</b> from 2000 up to 2018.
+            </p>
+            <p>You can <b>hover over each country</b> to view their precise value.</b>
+            </p>
+            </div>
+        </div>
+        <div class="pure-u-3-24"></div>
+    </div>
+
+    <!-- <div class="pure-g">
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-9-24">
+            <div class="subtext left">
+            </div>
+        </div>
+        <div class="pure-u-9-24">
+            <div class="subtext right">
+            <p><b>Drag the slider to view values from specific years</b> from 2000 up to 2018.
+            </p>
+            <p>You can <b>hover over each country</b> to view their precise value.</b>
+            </p>
+            </div>
+        </div>
+        <div class="pure-u-3-24"></div>
+    </div> -->
+
+    <div class="pure-g">
+        <div class="pure-u-3-24"></div>
+        <div class="pure-u-3-4">
+            <div class="footer">
+                Visualisation by Daniel Yuen, FIT3179 S2 2021<br>
+                Datasets obtained from:<br>
+                https://www.kaggle.com/odins0n/monthly-gold-prices<br>
+                https://data.worldbank.org/indicator/FI.RES.TOTL.CD?end=2020&start=2020&view=map&year=2020<br>
+            </div>
+        </div>
+        <div class="pure-u-3-24"></div>
+    </div>
+</body>
+
+</html>

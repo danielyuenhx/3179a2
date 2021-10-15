@@ -5,11 +5,11 @@
   },
   "background": "#f9f7f1",
   "transform": [
-      {"calculate": "datum.Change", "as": "Percentage Change (%)"}
+      {"calculate": "datum.Change", "as": "Price Change (%)"}
   ],
   "vconcat": [
     {
-      "width": 850,
+      "width": "container",
       "height": 300,
       "encoding": {
         "x": {
@@ -22,7 +22,7 @@
       "layer": [
         {
           "encoding": {
-            "y": {"field": "Percentage Change (%)", "type": "quantitative"},
+            "y": {"field": "Price Change (%)", "type": "quantitative"},
             "color": {"field": "Currency", "type": "nominal",
             "legend": {
               "cornerRadius": 10,
@@ -30,8 +30,8 @@
               "padding": 15,
               "strokeColor": "#2f2f2f",
               "orient": "bottom",
-              "labelLimit": 70,
-              "labelFontSize": 9
+              "labelFontSize": 11,
+              "columns": 8
             }},
             "opacity": { "condition": {"param": "currency_highlight", "value": 1.2}, "value": 0.2 }
           },
@@ -74,9 +74,9 @@
             },
             {
               "encoding": {
-                "text": {"type": "quantitative", "field": "Percentage Change (%)", "format": "0.3f"},
+                "text": {"type": "quantitative", "field": "Price Change (%)", "format": "0.3f"},
                 "x": {"type": "temporal", "field": "Date"},
-                "y": {"type": "quantitative", "field": "Percentage Change (%)"}
+                "y": {"type": "quantitative", "field": "Price Change (%)"}
               },
               "layer": [
                 {
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "width": 850,
+      "width": "container",
       "height": 60,
       "mark": "line",
       "params": [
@@ -111,7 +111,7 @@
       "encoding": {
         "x": {"field": "Date", "type": "temporal", "axis": {"tickCount": 10, "grid": false}},
         "y": {
-          "field": "Percentage Change (%)",
+          "field": "Price Change (%)",
           "type": "quantitative",
           "axis": {"tickCount": 3, "grid": false}
         },

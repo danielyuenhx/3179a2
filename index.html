@@ -17,7 +17,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
     
     <script>
-
         var vg_currency_over_time = "currency_over_time.vg.json"; 
         vegaEmbed("#line-chart", vg_currency_over_time).then(function(result) { 
         }).catch(console.error);
@@ -26,9 +25,9 @@
         vegaEmbed("#map", vg_map).then(function(result) { 
         }).catch(console.error);
 
-        var vg_donut = "donut_chart_1.vg.json"; 
-        vegaEmbed("#donut-chart_1", vg_donut).then(function(result) { 
-        }).catch(console.error);
+        // var vg_donut = "donut_chart_1.vg.json"; 
+        // vegaEmbed("#donut-chart_1", vg_donut).then(function(result) { 
+        // }).catch(console.error);
         var vg_donut = "donut_chart_2.vg.json"; 
         vegaEmbed("#donut-chart_2", vg_donut).then(function(result) { 
         }).catch(console.error);
@@ -50,6 +49,9 @@
         }
         b {
             font-size: 1.25rem;
+        }
+        .page {
+            width: 100%;
         }
         #map {
             text-align: center;
@@ -92,14 +94,28 @@
         #heading {
             font-family: 'Gilda Display', serif;
             font-size: 2.5rem;
-            font-style: italic;
             font-weight: bolder;
             margin-top: 20px;
+            text-align: center;
         }
         .subtext {
             font-family: 'Noto Serif', serif !important;
             font-size: 1rem;
             color: #2f2f2f;
+        }
+        .hint {
+            font-family: 'Noto Serif', serif !important;
+            font-size: 0.8rem;
+            color: white;
+            padding: 20px 20px 10px 20px;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: #2f2f2f;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        .hint b {
+            font-size: 1rem;
         }
         .left {
             padding-left: 15px;
@@ -125,122 +141,157 @@
 </head> 
 
 <body> 
-    <div id="title">Gold: Is it so Important?</div>
-    <div class="pure-g">
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-3-4 subtitle">
-            A visualisation by Daniel Yuen, fit3179 - 2021
+    <div class="page">
+        <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div id="title">Gold: Is it so Important?</div>
+            <div class="pure-u-3-24"></div>
         </div>
-        <div class="pure-u-3-24"></div>
 
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-3-4">
-            <div id="heading">Change in Gold Prices From 2000-2020</div>
+        <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-3-4 subtitle">
+                A visualisation by Daniel Yuen, fit3179 - 2021
+            </div>
+            <div class="pure-u-3-24"></div>
+
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-3-4">
+                <div id="heading">Change in Gold Prices From 2000-2020</div>
+            </div>
+            <div class="pure-u-3-24"></div>
         </div>
-        <div class="pure-u-3-24"></div>
-    </div>
 
-    <div class="pure-g">
-        <div class="pure-u-5-5">
-            <div id="line-chart"></div>
-        </div>
-    </div>
-
-    <div class="pure-g">
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-9-24">
-            <div class="subtext left">
-                <p><b>Gold has always been an important factor</b> in world economics. Examining the prices of gold
-                    across different countries is a good estimate of their economic status. </p>
-                <p>Throughout the years, the price of gold of countries worldwide have been <b>steadily
-                    rising.</b> The chart above shows the percentage change in price of gold of ten different 
-                    currencies from 2000 to 2020.</p>
+        <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-2-3">
+                <div id="line-chart"></div>
             </div>
         </div>
-        <div class="pure-u-9-24">
-            <div class="subtext right">
-            <p><b>Click on the legend to filter out values.</b> Multi-selecting compares the values of 
-                different currencies.
-            </p>
-            <p>If you want to isolate a period of time in the chart, <b>select the area you wish to
-                view in the bottom graph.</b>
-            </p>
+
+        <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-1-2">
+                <div class="subtext">
+                    <p><b>Gold has always been an important factor</b> in world economics. Although
+                        it is no longer used as a primary form of currency in developed nations, gold 
+                        still has a <b>significant impact on a country's currency.</b> Gold as a commodity 
+                        can act as a substitute for fiat currencies and be used as an effective hedge against 
+                        inflation. </p>
+                    <p>Throughout the years, the price of gold of countries worldwide have been <b>steadily
+                        rising.</b> The chart above shows the percentage change in price of gold of ten different 
+                        currencies from 2000 to 2020.</p>
+                </div>
             </div>
+            <div class="pure-u-1-4">
+                <div class="hint">
+                <b>How to View?</b>
+                <p>Click on the legend to filter out values. Multi-selecting compares the values of 
+                    different currencies.
+                </p>
+                <p>If you want to isolate a period of time in the chart, select the area you wish to
+                    view in the bottom graph.
+                </p>
+                </div>
+            </div>
+            <div class="pure-u-3-24"></div>
+            
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-3-4 section">
+                <div id="heading">Gold Reserves Worldwide</div>
+            </div>
+            <div class="pure-u-3-24"></div>
         </div>
-        <div class="pure-u-3-24"></div>
         
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-3-4 section">
-            <div id="heading">Gold Reserves by Country</div>
-        </div>
-        <div class="pure-u-3-24"></div>
-    </div>
-    
-    <div id="map"></div>
+        <div id="map"></div>
+        <div class="pure-g">
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-9-24">
+                <div class="subtext left">
+                    <p>A <b>gold reserve</b> is the gold held by a national central bank. It is important
+                    as it supports the value of a country's national currency.</p>
+                    <p>How does it do so? The value of a country's currency is closely related to the <b>value of its imports and 
+                        exports</b>, one of which is gold. When a importing more than exporting, a nation's
+                        currency will decline, and vice versa.</p>
+                </div>
+            </div>
+            <div class="pure-u-9-24">
+                <div class="subtext right">
+                    <p>Hence, a country that has a <b>larger gold export</b>
+                        will see an <b>increase in the strength of its currency</b> when gold prices 
+                        increase, since this increases the value of the country's total exports.</p>
+                    <!-- <p>The map above shows the 
+                    <b>size of each country's gold reserve in tonnes</b> from 2000 to 2018.</p> -->
+                    <p>Similar to the price of gold, the size of gold reserves for most developed countries
+                        worldwide have been <b>increasing from 2000 to 2015.</b></p>
+                </div>
+            </div>
+            <div class="pure-u-3-24"></div>
 
-    <div class="pure-g">
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-9-24">
-            <div class="subtext left">
-                <p>A <b>gold reserve</b> is the gold held by a national central bank. It is important
-                to support the value of national currency. </p>
-                <p>Similar to the price of gold, the size of gold reserves worldwide have been <b>
-                    rising.</b> The map above shows the value of each country's gold reserve valued
-                    in billions USD.</p>
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-3-4" style="text-align: center;">
+                <div id="donut-chart_1">
+                </div>
+                <div id="donut-chart_2">
+                </div>
+                <div id="donut-chart_3">
+                </div>
+                <div id="donut-chart_4">
+                </div>
             </div>
-        </div>
-        <div class="pure-u-9-24">
-            <div class="subtext right">
-            <p><b>Drag the slider to view values from specific years</b> from 2000 up to 2018.
-            </p>
-            <p>You can <b>hover over each country</b> to view their precise value.</b>
-            </p>
+            <div class="pure-u-3-24"></div>
+            
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-9-24">
+                <div class="subtext left">
+                    <p>The charts above show the <b>top ten largest gold reserves</b> in the years 2000, 2005
+                        and 2010. </p>
+                    <p>The <b>United States</b> has consistently been one of the <b>largest gold reserves</b> in 
+                        the world. Throughout 2005 to 2015, it has maintained its spot as the largest gold reserve 
+                        and is continues to be the <b>largest</b> gold reserve worldwide. </p>
+                </div>
             </div>
-        </div>
-        <div class="pure-u-3-24"></div>
-    </div>
+            <div class="pure-u-9-24">
+                <div class="subtext right">
+                <p><b>European countries</b> like Germany, France and Italy also have consistently large gold 
+                    reserves throughout 2005 to 2015 behind the United States. 
+                </p>
+                <p><b>China's</b> gold reserve has been steadily growing and is throughout the years and is 
+                    becoming as large as other European countries.
+                </p>
+                </div>
+            </div>
+            <div class="pure-u-3-24"></div>
+            
+            <!-- <div class="pure-u-3-24"></div>
+            <div class="pure-u-3-4 section">
+                <div id="heading">Closer to Home</div>
+            </div>
+            <div class="pure-u-3-24"></div> -->
 
-    <div class="pure-g">
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-3-4" style="text-align: center;">
-            <div id="donut-chart_1">
+            <div class="pure-u-3-24"></div>
+            <div class="pure-u-3-4">
+                <div class="footer">
+                    Visualisation by Daniel Yuen, FIT3179 S2 2021<br>
+                    Datasets obtained from:<br>
+                    <a href="https://www.kaggle.com/odins0n/monthly-gold-prices">
+                        Monthly Gold Prices (1979-2021) | Kaggle
+                    </a><br>
+                    <a href="https://data.worldbank.org/indicator/FI.RES.TOTL.CD?end=2020&start=2020&view=map&year=2020">
+                        Country Gold Reserves Annual, quarterly, & monthly | Kaggle
+                    </a><br>
+                    <a href="https://www.data.gov.my/data/dataset/bank-negara-malaysia-statement-of-assets/resource/16f54859-bf03-42a2-aea7-610fab640f15">
+                        Bank Negara Malaysia: Statement of Assets
+                    </a>
+                    <br><br>
+                    Information obtained from:<br>
+                    <a href="https://www.investopedia.com/articles/forex/11/golds-effect-currencies.asp">
+                        How Gold Affects Currencies
+                    </a><br>
+                </div>
             </div>
-            <div id="donut-chart_2">
-            </div>
-            <div id="donut-chart_3">
-            </div>
-            <div id="donut-chart_4">
-            </div>
+            <div class="pure-u-3-24"></div>
         </div>
-        <div class="pure-u-3-24"></div>
-        
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-9-24">
-            <div class="subtext left">
-                <p><b>China</b> has one of the highest-valued gold reserves in the world. Throughout
-                    2000-2015, it has been increasing tremendously and is currently the <b>most-valued</b>
-                    gold reserve worldwide. </p>
-            </div>
-        </div>
-        <div class="pure-u-9-24">
-            <div class="subtext right">
-            <p><b>Hover over each portion</b> for more details.
-            </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="pure-g">
-        <div class="pure-u-3-24"></div>
-        <div class="pure-u-3-4">
-            <div class="footer">
-                Visualisation by Daniel Yuen, FIT3179 S2 2021<br>
-                Datasets obtained from:<br>
-                https://www.kaggle.com/odins0n/monthly-gold-prices<br>
-                https://data.worldbank.org/indicator/FI.RES.TOTL.CD?end=2020&start=2020&view=map&year=2020<br>
-            </div>
-        </div>
-        <div class="pure-u-3-24"></div>
     </div>
 </body>
 

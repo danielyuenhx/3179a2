@@ -26,7 +26,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/gold_reserves_2000.csv"
+        "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/gold_reserves_tonnes_clean.csv"
       },
       "transform": [{
           "lookup": "Country",
@@ -40,8 +40,8 @@
           "as": "geo"
         },
         {"filter": "datum.Year == year_selection"},
-        {"calculate": "datum.Value", "as": "Gold Reserves in USD"},
-        {"calculate": "datum.Value/1000000000", "as": "Reserves in Billions USD"}
+        {"filter": "datum.Tonnes > 0"},
+        {"calculate": "datum.Tonnes+1", "as": "Gold Reserves (tonnes)"}
       ],
       "layer": [
         {
@@ -55,25 +55,61 @@
                 "type": "geojson"
               },
             "color": {
-              "field": "Gold Reserves in USD",
+              "field": "Gold Reserves (tonnes)",
               "type": "quantitative",
               "scale": {
                 "type": "log",
-                "domainMax": 1000000000000,
-                "domainMin": 1000000,
+                "domainMax": 10000,
+                "domainMin": 0.1,
                 "range": ["#EEE8AA", "#FFD700", "#D2691E"]
               },
+              "title": "Reserves (tonnes)",
               "legend": {
                 "cornerRadius": 10,
                 "fillColor": "#fde6e6",
                 "padding": 15,
                 "strokeColor": "#2f2f2f",
-                "gradientLength": 300
+                "gradientLength": 200
               }
             },
             "tooltip": [
               {"field": "Country", "type": "nominal", "title": "Country"},
-              {"field": "Reserves in Billions USD", "type": "quantitative", "format": "0.1f"},
+              {"field": "Gold Reserves (tonnes)", "type": "quantitative", "format": "0.2f"},
+              {"field": "Year", "type": "nominal"}
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "baseline": "middle",
+            "fontSize": 13,
+            "font": "Arial"
+          },
+          "transform": [
+            {
+              "lookup": "Country",
+              "from": {
+                "data": {"url": "latlong.csv"},
+                "key": "Country",
+                "fields": ["Latitude", "Longitude"]
+              }
+            }
+          ],
+          "encoding": {
+            "text": {"field": "Country", "type": "nominal"},
+            "longitude": {"field": "Longitude", "type": "quantitative"},
+            "latitude": {"field": "Latitude", "type": "quantitative"},
+            "opacity": {
+              "condition": {
+                "test": "datum.Country == 'China'|| datum.Country == 'Italy'|| datum.Country == 'India'|| datum.Country == 'Australia' || datum.Country == 'Russia' || datum.Country == 'United States of America' || datum.Country == 'Brazil'",
+                "value": 1
+              },
+              "value": 0
+            },
+            "tooltip": [
+              {"field": "Country", "type": "nominal", "title": "Country"},
+              {"field": "Gold Reserves (tonnes)", "type": "quantitative", "format": "0.2f"},
               {"field": "Year", "type": "nominal"}
             ]
           }

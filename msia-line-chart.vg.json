@@ -1,0 +1,124 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 200,
+    "background": "#f9f7f1",
+    "data": {
+      "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/msia_reserves.csv"
+    },
+    "transform": [
+        {"filter": "datum.Asset != 'Total Assets'"}
+    ],
+    "layer": [
+      {
+        "encoding": {
+          "x": {"field": "Year", "type": "temporal",
+            "axis": {"grid": false}},
+          "y": {"field": "Tonnes", "type": "quantitative", 
+            "axis": {"title": "Gold (tonnes)", "grid": false}},
+          "color": {
+              "type": "nominal",
+              "field": "symbol", 
+              "legend": null,
+              "scale": {"range": ["#DAA520"]}
+            }
+        },
+        "layer": [
+          {
+            "mark": {"type": "line", "interpolate": "monotone"}
+          },
+          {
+            "params": [{
+              "name": "label",
+              "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover",
+                "clear": "mouseout"
+              }
+            }],
+            "mark": "point",
+            "encoding": {
+              "opacity": {
+                "condition": {
+                  "param": "label",
+                  "empty": false,
+                  "value": 1
+                },
+                "value": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "transform": [{"filter": {"param": "label", "empty": false}}],
+        "layer": [
+          {
+            "mark": {"type": "rule", "color": "gray"},
+            "encoding": {
+              "x": {"type": "temporal", "field": "Year", "aggregate": "min", "title": "Year"}
+            }
+          },
+          {
+            "encoding": {
+              "text": {"type": "quantitative", "field": "Tonnes"},
+              "x": {"type": "temporal", "field": "Year"},
+              "y": {"type": "quantitative", "field": "Tonnes"}
+            },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "left",
+                  "dx": 5,
+                  "dy": 13
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": 13},
+                "encoding": {
+                  "color": {"type": "nominal", "field": "symbol", "legend": null,
+                  "scale": {"range": ["black"]}}
+                }
+              }
+            ]
+          },
+          {
+            "encoding": {
+              "text": {"type": "temporal", "field": "Year"},
+              "x": {"type": "temporal", "field": "Year"},
+              "y": {"type": "quantitative", "field": "Tonnes"}
+            },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "left",
+                  "dx": 5,
+                  "dy": 0
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": 0},
+                "encoding": {
+                  "color": {"type": "nominal", "field": "symbol", "legend": null}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "config": {
+      "view": {
+         "stroke": "transparent"
+      }
+    }
+}
+  

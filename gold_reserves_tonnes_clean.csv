@@ -1,4 +1,4 @@
-﻿Country Name,Time Period,ounces,tonnes,period
+﻿Country,Year,Ounces,Tonnes,Period
 Algeria,2000,5582812.224,174.462882,year
 Algeria,2001,5582812.224,174.462882,year
 Algeria,2002,5582812.224,174.462882,year
@@ -56,17 +56,17 @@ Albania,2015,50606.57,1.581455313,year
 Albania,2016,50585.57,1.580799063,year
 Albania,2017,50000,1.5625,year
 Albania,2018,50000,1.5625,year
-"Afghanistan, Islamic Republic of",2008,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2009,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2010,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2011,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2012,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2013,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2014,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2015,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2016,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2017,703004.944,21.9689045,year
-"Afghanistan, Islamic Republic of",2018,703004.944,21.9689045,year
+Afghanistan,2008,703004.944,21.9689045,year
+Afghanistan,2009,703004.944,21.9689045,year
+Afghanistan,2010,703004.944,21.9689045,year
+Afghanistan,2011,703004.944,21.9689045,year
+Afghanistan,2012,703004.944,21.9689045,year
+Afghanistan,2013,703004.944,21.9689045,year
+Afghanistan,2014,703004.944,21.9689045,year
+Afghanistan,2015,703004.944,21.9689045,year
+Afghanistan,2016,703004.944,21.9689045,year
+Afghanistan,2017,703004.944,21.9689045,year
+Afghanistan,2018,703004.944,21.9689045,year
 Australia,2000,2563000,80.09375,year
 Australia,2001,2563000,80.09375,year
 Australia,2002,2563000,80.09375,year
@@ -143,19 +143,79 @@ Austria,2015,9002000,281.3125,year
 Austria,2016,9002000,281.3125,year
 Austria,2017,9002000,281.3125,year
 Austria,2018,9002000,281.3125,year
-"Armenia, Republic of",2000,44600,1.39375,year
-"Armenia, Republic of",2001,44900,1.403125,year
-"Armenia, Republic of",2002,44899.9411,1.403123159,year
-"Azerbaijan, Republic of",2009,64.3,0.002009375,year
-"Azerbaijan, Republic of",2010,64.3,0.002009375,year
-"Azerbaijan, Republic of",2011,64.3,0.002009375,year
-"Azerbaijan, Republic of",2012,64.3,0.002009375,year
-"Azerbaijan, Republic of",2013,643514.94,20.10984187,year
-"Azerbaijan, Republic of",2014,970027.23,30.31335094,year
-"Azerbaijan, Republic of",2015,970027.23,30.31335094,year
-"Azerbaijan, Republic of",2016,643514.94,20.10984187,year
-"Azerbaijan, Republic of",2017,64.3,0.002009375,year
-"Azerbaijan, Republic of",2018,64.3,0.002009375,year
+Armenia,2000,44600,1.39375,year
+Armenia,2001,44900,1.403125,year
+Armenia,2002,44899.9411,1.403123159,year
+Armenia,2003,0,0,year
+Armenia,2004,0,0,year
+Armenia,2005,0,0,year
+Armenia,2006,0,0,year
+Armenia,2007,0,0,year
+Armenia,2008,0,0,year
+Armenia,2009,0,0,year
+Armenia,2010,0,0,year
+Armenia,2011,0,0,year
+Armenia,2012,0,0,year
+Armenia,2013,0,0,year
+Armenia,2014,0,0,year
+Armenia,2015,0,0,year
+Armenia,2016,0,0,year
+Armenia,2017,0,0,year
+Armenia,2018,0,0,year
+"Bahamas, The",2000,0,0,year
+"Bahamas, The",2001,0,0,year
+"Bahamas, The",2002,0,0,year
+"Bahamas, The",2003,0,0,year
+"Bahamas, The",2004,0,0,year
+"Bahamas, The",2005,0,0,year
+"Bahamas, The",2006,0,0,year
+"Bahamas, The",2007,0,0,year
+"Bahamas, The",2008,0,0,year
+"Bahamas, The",2009,0,0,year
+"Bahamas, The",2010,0,0,year
+"Bahamas, The",2011,0,0,year
+"Bahamas, The",2012,0,0,year
+"Bahamas, The",2013,0,0,year
+"Bahamas, The",2014,0,0,year
+"Bahamas, The",2015,0,0,year
+"Bahamas, The",2016,0,0,year
+"Bahamas, The",2017,0,0,year
+Barbados,2000,0,0,year
+Barbados,2001,0,0,year
+Barbados,2002,0,0,year
+Barbados,2003,0,0,year
+Barbados,2004,0,0,year
+Barbados,2005,0,0,year
+Barbados,2006,0,0,year
+Barbados,2007,0,0,year
+Barbados,2008,0,0,year
+Barbados,2009,0,0,year
+Barbados,2010,0,0,year
+Barbados,2011,0,0,year
+Barbados,2012,0,0,year
+Barbados,2013,0,0,year
+Barbados,2014,0,0,year
+Barbados,2015,0,0,year
+Barbados,2016,0,0,year
+Azerbaijan,2000,0,0,year
+Azerbaijan,2001,0,0,year
+Azerbaijan,2002,0,0,year
+Azerbaijan,2003,0,0,year
+Azerbaijan,2004,0,0,year
+Azerbaijan,2005,0,0,year
+Azerbaijan,2006,0,0,year
+Azerbaijan,2007,0,0,year
+Azerbaijan,2008,0,0,year
+Azerbaijan,2009,64.3,0.002009375,year
+Azerbaijan,2010,64.3,0.002009375,year
+Azerbaijan,2011,64.3,0.002009375,year
+Azerbaijan,2012,64.3,0.002009375,year
+Azerbaijan,2013,643514.94,20.10984187,year
+Azerbaijan,2014,970027.23,30.31335094,year
+Azerbaijan,2015,970027.23,30.31335094,year
+Azerbaijan,2016,643514.94,20.10984187,year
+Azerbaijan,2017,64.3,0.002009375,year
+Azerbaijan,2018,64.3,0.002009375,year
 Bangladesh,2000,108668,3.395875,year
 Bangladesh,2001,110680,3.45875,year
 Bangladesh,2002,112390,3.5121875,year
@@ -230,6 +290,27 @@ Belgium,2015,7311000,228.46875,year
 Belgium,2016,7311000,228.46875,year
 Belgium,2017,7311000,228.46875,year
 Belgium,2018,7311000,228.46875,year
+Benin,2013,0,0,year
+Benin,2014,0,0,year
+Benin,2015,0,0,year
+Benin,2016,0,0,year
+Benin,2000,0,0,year
+Benin,2001,0,0,year
+Benin,2002,0,0,year
+Benin,2003,0,0,year
+Benin,2004,0,0,year
+Benin,2005,0,0,year
+Benin,2006,0,0,year
+Benin,2007,0,0,year
+Benin,2008,0,0,year
+Benin,2009,0,0,year
+Benin,2010,0,0,year
+Benin,2011,0,0,year
+Benin,2012,0,0,year
+Benin,2017,0,0,year
+Benin,2018,0,0,year
+Belize,2017,0,0,year
+Belize,2018,0,0,year
 Bolivia,2000,938885.2589,29.34016434,year
 Bolivia,2001,938885.26,29.34016438,year
 Bolivia,2002,911074.892,28.47109038,year
@@ -249,6 +330,15 @@ Bolivia,2015,1366822.91,42.71321594,year
 Bolivia,2016,1366822.91,42.71321594,year
 Bolivia,2017,1366822.91,42.71321594,year
 Bolivia,2018,1366822.91,42.71321594,year
+Bosnia and Herzegovina,2000,0,0,year
+Bosnia and Herzegovina,2001,0,0,year
+Bosnia and Herzegovina,2002,0,0,year
+Bosnia and Herzegovina,2003,0,0,year
+Bosnia and Herzegovina,2004,0,0,year
+Bosnia and Herzegovina,2005,0,0,year
+Bosnia and Herzegovina,2006,0,0,year
+Bosnia and Herzegovina,2007,0,0,year
+Bosnia and Herzegovina,2008,0,0,year
 Bosnia and Herzegovina,2009,42366.316,1.323947375,year
 Bosnia and Herzegovina,2010,32000,1,year
 Bosnia and Herzegovina,2011,64000,2,year
@@ -303,6 +393,17 @@ Brunei Darussalam,2013,146747.0041,4.585843877,year
 Brunei Darussalam,2014,147258.9223,4.601841323,year
 Brunei Darussalam,2015,146194.9974,4.56859367,year
 Brunei Darussalam,2016,144192.2499,4.50600781,year
+Brunei Darussalam,2000,0,0,year
+Brunei Darussalam,2001,0,0,year
+Brunei Darussalam,2002,0,0,year
+Brunei Darussalam,2003,0,0,year
+Brunei Darussalam,2004,0,0,year
+Brunei Darussalam,2005,0,0,year
+Brunei Darussalam,2006,0,0,year
+Brunei Darussalam,2007,0,0,year
+Brunei Darussalam,2008,0,0,year
+Brunei Darussalam,2009,0,0,year
+Brunei Darussalam,2010,0,0,year
 Brunei Darussalam,2017,145373.6016,4.542925049,year
 Brunei Darussalam,2018,145520.696,4.547521751,year
 Burundi,2000,17222,0.5381875,year
@@ -359,6 +460,47 @@ Canada,2012,109000,3.40625,year
 Canada,2013,96000,3,year
 Canada,2014,96000,3,year
 Canada,2015,54788,1.712125,year
+Canada,2016,0,0,year
+Canada,2017,0,0,year
+Canada,2018,0,0,year
+Burkina Faso,2000,0,0,year
+Burkina Faso,2001,0,0,year
+Burkina Faso,2002,0,0,year
+Burkina Faso,2003,0,0,year
+Burkina Faso,2004,0,0,year
+Burkina Faso,2005,0,0,year
+Burkina Faso,2006,0,0,year
+Burkina Faso,2007,0,0,year
+Burkina Faso,2008,0,0,year
+Burkina Faso,2009,0,0,year
+Burkina Faso,2010,0,0,year
+Burkina Faso,2011,0,0,year
+Burkina Faso,2012,0,0,year
+Burkina Faso,2013,0,0,year
+Burkina Faso,2014,0,0,year
+Burkina Faso,2015,0,0,year
+Burkina Faso,2016,0,0,year
+Burkina Faso,2017,0,0,year
+Burkina Faso,2018,0,0,year
+Cabo Verde,2000,0,0,year
+Cabo Verde,2001,0,0,year
+Cabo Verde,2002,0,0,year
+Cabo Verde,2003,0,0,year
+Cabo Verde,2004,0,0,year
+Cabo Verde,2005,0,0,year
+Cabo Verde,2006,0,0,year
+Cabo Verde,2007,0,0,year
+Cabo Verde,2008,0,0,year
+Cabo Verde,2009,0,0,year
+Cabo Verde,2010,0,0,year
+Cabo Verde,2011,0,0,year
+Cabo Verde,2012,0,0,year
+Cabo Verde,2013,0,0,year
+Cabo Verde,2014,0,0,year
+Cabo Verde,2015,0,0,year
+Cabo Verde,2016,0,0,year
+Cabo Verde,2017,0,0,year
+Cabo Verde,2018,0,0,year
 Cameroon,2000,29954,0.9360625,year
 Cameroon,2001,29954,0.9360625,year
 Cameroon,2002,29954,0.9360625,year
@@ -368,6 +510,16 @@ Cameroon,2005,29954,0.9360625,year
 Cameroon,2006,29954,0.9360625,year
 Cameroon,2007,29954,0.9360625,year
 Cameroon,2008,29954,0.9360625,year
+Cameroon,2009,0,0,year
+Cameroon,2010,0,0,year
+Cameroon,2011,0,0,year
+Cameroon,2012,0,0,year
+Cameroon,2013,0,0,year
+Cameroon,2014,0,0,year
+Cameroon,2015,0,0,year
+Cameroon,2016,0,0,year
+Cameroon,2017,0,0,year
+Cameroon,2018,0,0,year
 Chile,2000,73600,2.3,year
 Chile,2001,74000,2.3125,year
 Chile,2002,8000,0.25,year
@@ -415,6 +567,14 @@ Central African Economic and Monetary Community,2005,228760,7.14875,year
 Central African Economic and Monetary Community,2006,228760,7.14875,year
 Central African Economic and Monetary Community,2007,228760,7.14875,year
 Central African Economic and Monetary Community,2008,228760,7.14875,year
+Central African Economic and Monetary Community,2009,0,0,year
+Central African Economic and Monetary Community,2010,0,0,year
+Central African Economic and Monetary Community,2011,0,0,year
+Central African Economic and Monetary Community,2012,0,0,year
+Central African Economic and Monetary Community,2013,0,0,year
+Central African Economic and Monetary Community,2014,0,0,year
+Central African Economic and Monetary Community,2015,0,0,year
+Central African Economic and Monetary Community,2016,0,0,year
 Central African Republic,2000,11126,0.3476875,year
 Central African Republic,2001,11126,0.3476875,year
 Central African Republic,2002,11126,0.3476875,year
@@ -424,6 +584,16 @@ Central African Republic,2005,11126,0.3476875,year
 Central African Republic,2006,11126,0.3476875,year
 Central African Republic,2007,11126,0.3476875,year
 Central African Republic,2008,11126,0.3476875,year
+Central African Republic,2009,0,0,year
+Central African Republic,2010,0,0,year
+Central African Republic,2011,0,0,year
+Central African Republic,2012,0,0,year
+Central African Republic,2013,0,0,year
+Central African Republic,2014,0,0,year
+Central African Republic,2015,0,0,year
+Central African Republic,2016,0,0,year
+Central African Republic,2017,0,0,year
+Central African Republic,2018,0,0,year
 Chad,2000,11125.8,0.34768125,year
 Chad,2001,11125.8,0.34768125,year
 Chad,2002,11126,0.3476875,year
@@ -433,6 +603,27 @@ Chad,2005,11126,0.3476875,year
 Chad,2006,11126,0.3476875,year
 Chad,2007,11126,0.3476875,year
 Chad,2008,11126,0.3476875,year
+Chad,2015,0,0,year
+Chad,2016,0,0,year
+Chad,2017,0,0,year
+Chad,2018,0,0,year
+Dem. Rep. Congo,2002,0,0,year
+Dem. Rep. Congo,2003,0,0,year
+Dem. Rep. Congo,2004,0,0,year
+Dem. Rep. Congo,2005,0,0,year
+Dem. Rep. Congo,2006,0,0,year
+Dem. Rep. Congo,2007,0,0,year
+Dem. Rep. Congo,2008,0,0,year
+Dem. Rep. Congo,2009,0,0,year
+Dem. Rep. Congo,2010,0,0,year
+Dem. Rep. Congo,2011,0,0,year
+Dem. Rep. Congo,2012,0,0,year
+Dem. Rep. Congo,2013,0,0,year
+Dem. Rep. Congo,2014,0,0,year
+Dem. Rep. Congo,2015,0,0,year
+Dem. Rep. Congo,2016,0,0,year
+Dem. Rep. Congo,2017,0,0,year
+Dem. Rep. Congo,2018,0,0,year
 CIS,2000,16154975.77,504.8429927,year
 CIS,2001,17426019.72,544.5631162,year
 CIS,2002,16620402.25,519.3875704,year
@@ -452,25 +643,25 @@ CIS,2015,66372352.86,2074.136027,year
 CIS,2016,74363923.23,2323.872601,year
 CIS,2017,82621305.76,2581.915805,year
 CIS,2018,93990696.47,2937.209265,year
-"China, P.R.: Mainland",2000,12700000,396.875,year
-"China, P.R.: Mainland",2001,16100000,503.125,year
-"China, P.R.: Mainland",2002,19290000,602.8125,year
-"China, P.R.: Mainland",2003,19290000,602.8125,year
-"China, P.R.: Mainland",2004,19290000,602.8125,year
-"China, P.R.: Mainland",2005,19290000,602.8125,year
-"China, P.R.: Mainland",2006,19290000,602.8125,year
-"China, P.R.: Mainland",2007,19290000,602.8125,year
-"China, P.R.: Mainland",2008,19290000,602.8125,year
-"China, P.R.: Mainland",2009,33890000,1059.0625,year
-"China, P.R.: Mainland",2010,33890000,1059.0625,year
-"China, P.R.: Mainland",2011,33890000,1059.0625,year
-"China, P.R.: Mainland",2012,33890000,1059.0625,year
-"China, P.R.: Mainland",2013,33890000,1059.0625,year
-"China, P.R.: Mainland",2014,33890000,1059.0625,year
-"China, P.R.: Mainland",2015,56660000,1770.625,year
-"China, P.R.: Mainland",2016,59240000,1851.25,year
-"China, P.R.: Mainland",2017,59240000,1851.25,year
-"China, P.R.: Mainland",2018,59560000,1861.25,year
+China,2000,12700000,396.875,year
+China,2001,16100000,503.125,year
+China,2002,19290000,602.8125,year
+China,2003,19290000,602.8125,year
+China,2004,19290000,602.8125,year
+China,2005,19290000,602.8125,year
+China,2006,19290000,602.8125,year
+China,2007,19290000,602.8125,year
+China,2008,19290000,602.8125,year
+China,2009,33890000,1059.0625,year
+China,2010,33890000,1059.0625,year
+China,2011,33890000,1059.0625,year
+China,2012,33890000,1059.0625,year
+China,2013,33890000,1059.0625,year
+China,2014,33890000,1059.0625,year
+China,2015,56660000,1770.625,year
+China,2016,59240000,1851.25,year
+China,2017,59240000,1851.25,year
+China,2018,59560000,1861.25,year
 Comoros,2000,579,0.01809375,year
 Comoros,2001,579,0.01809375,year
 Comoros,2002,579,0.01809375,year
@@ -509,6 +700,44 @@ Colombia,2015,112387.35,3.512104688,year
 Colombia,2016,185189.085,5.787158906,year
 Colombia,2017,333189.42,10.41216938,year
 Colombia,2018,412789.448,12.89967025,year
+"China, P.R.: Macao",2000,0,0,year
+"China, P.R.: Macao",2001,0,0,year
+"China, P.R.: Macao",2002,0,0,year
+"China, P.R.: Macao",2003,0,0,year
+"China, P.R.: Macao",2004,0,0,year
+"China, P.R.: Macao",2005,0,0,year
+"China, P.R.: Macao",2006,0,0,year
+"China, P.R.: Macao",2007,0,0,year
+"China, P.R.: Macao",2008,0,0,year
+"China, P.R.: Macao",2009,0,0,year
+"China, P.R.: Macao",2010,0,0,year
+"China, P.R.: Macao",2011,0,0,year
+"China, P.R.: Macao",2012,0,0,year
+"China, P.R.: Macao",2013,0,0,year
+"China, P.R.: Macao",2014,0,0,year
+"China, P.R.: Macao",2015,0,0,year
+"China, P.R.: Macao",2016,0,0,year
+"China, P.R.: Macao",2017,0,0,year
+"China, P.R.: Macao",2018,0,0,year
+CÃ´te d'Ivoire,2000,0,0,year
+CÃ´te d'Ivoire,2001,0,0,year
+CÃ´te d'Ivoire,2002,0,0,year
+CÃ´te d'Ivoire,2003,0,0,year
+CÃ´te d'Ivoire,2004,0,0,year
+CÃ´te d'Ivoire,2005,0,0,year
+CÃ´te d'Ivoire,2006,0,0,year
+CÃ´te d'Ivoire,2007,0,0,year
+CÃ´te d'Ivoire,2008,0,0,year
+CÃ´te d'Ivoire,2009,0,0,year
+CÃ´te d'Ivoire,2010,0,0,year
+CÃ´te d'Ivoire,2011,0,0,year
+CÃ´te d'Ivoire,2012,0,0,year
+CÃ´te d'Ivoire,2013,0,0,year
+CÃ´te d'Ivoire,2014,0,0,year
+CÃ´te d'Ivoire,2015,0,0,year
+CÃ´te d'Ivoire,2016,0,0,year
+CÃ´te d'Ivoire,2017,0,0,year
+CÃ´te d'Ivoire,2018,0,0,year
 Costa Rica,2000,1971,0.06159375,year
 Costa Rica,2001,1978.161337,0.061817542,year
 Costa Rica,2002,2139.302106,0.066853191,year
@@ -525,15 +754,47 @@ Costa Rica,2012,15.67621094,0.000489882,year
 Costa Rica,2013,21.01979845,0.000656869,year
 Costa Rica,2014,21.35423594,0.00066732,year
 Costa Rica,2015,23.32830431,0.00072901,year
-"Congo, Republic of",2000,11126.2,0.34769375,year
-"Congo, Republic of",2001,11126.2,0.34769375,year
-"Congo, Republic of",2002,11126,0.3476875,year
-"Congo, Republic of",2003,11126,0.3476875,year
-"Congo, Republic of",2004,11126,0.3476875,year
-"Congo, Republic of",2005,11126,0.3476875,year
-"Congo, Republic of",2006,11126,0.3476875,year
-"Congo, Republic of",2007,11126,0.3476875,year
-"Congo, Republic of",2008,11126,0.3476875,year
+Costa Rica,2016,0,0,year
+Costa Rica,2017,0,0,year
+Costa Rica,2018,0,0,year
+Croatia,2000,0,0,year
+Croatia,2001,0,0,year
+Croatia,2002,0,0,year
+Croatia,2003,0,0,year
+Croatia,2004,0,0,year
+Croatia,2005,0,0,year
+Croatia,2006,0,0,year
+Croatia,2007,0,0,year
+Croatia,2008,0,0,year
+Croatia,2009,0,0,year
+Croatia,2010,0,0,year
+Croatia,2011,0,0,year
+Croatia,2012,0,0,year
+Croatia,2013,0,0,year
+Croatia,2014,0,0,year
+Croatia,2015,0,0,year
+Croatia,2016,0,0,year
+Croatia,2017,0,0,year
+Croatia,2018,0,0,year
+"Congo, Rep.",2000,11126.2,0.34769375,year
+"Congo, Rep.",2001,11126.2,0.34769375,year
+"Congo, Rep.",2002,11126,0.3476875,year
+"Congo, Rep.",2003,11126,0.3476875,year
+"Congo, Rep.",2004,11126,0.3476875,year
+"Congo, Rep.",2005,11126,0.3476875,year
+"Congo, Rep.",2006,11126,0.3476875,year
+"Congo, Rep.",2007,11126,0.3476875,year
+"Congo, Rep.",2008,11126,0.3476875,year
+"Congo, Rep.",2009,0,0,year
+"Congo, Rep.",2010,0,0,year
+"Congo, Rep.",2011,0,0,year
+"Congo, Rep.",2012,0,0,year
+"Congo, Rep.",2013,0,0,year
+"Congo, Rep.",2014,0,0,year
+"Congo, Rep.",2015,0,0,year
+"Congo, Rep.",2016,0,0,year
+"Congo, Rep.",2017,0,0,year
+"Congo, Rep.",2018,0,0,year
 Denmark,2000,2141390,66.9184375,year
 Denmark,2001,2141000,66.90625,year
 Denmark,2002,2140000,66.875,year
@@ -678,6 +939,35 @@ Egypt,2017,2457636.28,76.80113375,year
 Egypt,2018,2520057.68,78.7518025,year
 Eritrea,2000,38679.05541,1.208720482,year
 Eritrea,2001,38679.05541,1.208720482,year
+Eritrea,2002,0,0,year
+Eritrea,2003,0,0,year
+Eritrea,2004,0,0,year
+Eritrea,2005,0,0,year
+Eritrea,2006,0,0,year
+Eritrea,2007,0,0,year
+Eritrea,2008,0,0,year
+Eritrea,2009,0,0,year
+Eritrea,2010,0,0,year
+Eritrea,2011,0,0,year
+Equatorial Guinea,2000,0,0,year
+Equatorial Guinea,2001,0,0,year
+Equatorial Guinea,2002,0,0,year
+Equatorial Guinea,2003,0,0,year
+Equatorial Guinea,2004,0,0,year
+Equatorial Guinea,2005,0,0,year
+Equatorial Guinea,2006,0,0,year
+Equatorial Guinea,2007,0,0,year
+Equatorial Guinea,2008,0,0,year
+Equatorial Guinea,2009,0,0,year
+Equatorial Guinea,2010,0,0,year
+Equatorial Guinea,2011,0,0,year
+Equatorial Guinea,2012,0,0,year
+Equatorial Guinea,2013,0,0,year
+Equatorial Guinea,2014,0,0,year
+Equatorial Guinea,2015,0,0,year
+Equatorial Guinea,2016,0,0,year
+Equatorial Guinea,2017,0,0,year
+Equatorial Guinea,2018,0,0,year
 Emerging and Developing Europe,2000,12483829.49,390.1196716,year
 Emerging and Developing Europe,2001,12705691.92,397.0528725,year
 Emerging and Developing Europe,2002,12417611.08,388.0503461,year
@@ -757,6 +1047,18 @@ Emerging and Developing Countries,2018,291441612.6,9107.550394,year
 Ethiopia,2000,204900,6.403125,year
 Ethiopia,2001,204935,6.40421875,year
 Ethiopia,2002,245507,7.67209375,year
+Ethiopia,2003,0,0,year
+Ethiopia,2004,0,0,year
+Ethiopia,2005,0,0,year
+Ethiopia,2006,0,0,year
+Ethiopia,2007,0,0,year
+Ethiopia,2008,0,0,year
+Ethiopia,2009,0,0,year
+Ethiopia,2010,0,0,year
+Ethiopia,2011,0,0,year
+Ethiopia,2012,0,0,year
+Ethiopia,2013,0,0,year
+Ethiopia,2014,0,0,year
 Ethiopia,2015,8000.387,0.250012094,year
 Ethiopia,2016,8000.387,0.250012094,year
 Ethiopia,2017,8000.387,0.250012094,year
@@ -846,6 +1148,16 @@ Gabon,2005,12837,0.40115625,year
 Gabon,2006,12837,0.40115625,year
 Gabon,2007,12837,0.40115625,year
 Gabon,2008,12837,0.40115625,year
+Gabon,2009,0,0,year
+Gabon,2010,0,0,year
+Gabon,2011,0,0,year
+Gabon,2012,0,0,year
+Gabon,2013,0,0,year
+Gabon,2014,0,0,year
+Gabon,2015,0,0,year
+Gabon,2016,0,0,year
+Gabon,2017,0,0,year
+Gabon,2018,0,0,year
 France,2000,97245000,3038.90625,year
 France,2001,97245000,3038.90625,year
 France,2002,97247000,3038.96875,year
@@ -865,6 +1177,25 @@ France,2015,78308000,2447.125,year
 France,2016,78315000,2447.34375,year
 France,2017,78320000,2447.5,year
 France,2018,78321000,2447.53125,year
+Georgia,2000,0,0,year
+Georgia,2001,0,0,year
+Georgia,2002,0,0,year
+Georgia,2003,0,0,year
+Georgia,2004,0,0,year
+Georgia,2005,0,0,year
+Georgia,2006,0,0,year
+Georgia,2007,0,0,year
+Georgia,2008,0,0,year
+Georgia,2009,0,0,year
+Georgia,2010,0,0,year
+Georgia,2011,0,0,year
+Georgia,2012,0,0,year
+Georgia,2013,0,0,year
+Georgia,2014,0,0,year
+Georgia,2015,0,0,year
+Georgia,2016,0,0,year
+Georgia,2017,0,0,year
+Georgia,2018,0,0,year
 Germany,2000,111519000,3484.96875,year
 Germany,2001,111132000,3472.875,year
 Germany,2002,110786000,3462.0625,year
@@ -960,6 +1291,25 @@ Guinea,2015,76900,2.403125,year
 Guinea,2016,7100,0.221875,year
 Guinea,2017,7100,0.221875,year
 Guinea,2018,49251.73,1.539116563,year
+Guinea-Bissau,2000,0,0,year
+Guinea-Bissau,2001,0,0,year
+Guinea-Bissau,2002,0,0,year
+Guinea-Bissau,2003,0,0,year
+Guinea-Bissau,2004,0,0,year
+Guinea-Bissau,2005,0,0,year
+Guinea-Bissau,2006,0,0,year
+Guinea-Bissau,2007,0,0,year
+Guinea-Bissau,2008,0,0,year
+Guinea-Bissau,2009,0,0,year
+Guinea-Bissau,2010,0,0,year
+Guinea-Bissau,2011,0,0,year
+Guinea-Bissau,2012,0,0,year
+Guinea-Bissau,2013,0,0,year
+Guinea-Bissau,2014,0,0,year
+Guinea-Bissau,2015,0,0,year
+Guinea-Bissau,2016,0,0,year
+Guinea-Bissau,2017,0,0,year
+Guinea-Bissau,2018,0,0,year
 Honduras,2000,21397,0.66865625,year
 Honduras,2001,21400,0.66875,year
 Honduras,2002,21400,0.66875,year
@@ -1033,6 +1383,7 @@ Hungary,2012,98900,3.090625,year
 Hungary,2013,98900,3.090625,year
 Hungary,2014,98900,3.090625,year
 Hungary,2015,98900,3.090625,year
+Hungary,2016,0,0,year
 Hungary,2017,98900,3.090625,year
 Hungary,2018,1013000,31.65625,year
 India,2000,11502338.97,359.4480927,year
@@ -1073,6 +1424,25 @@ Iceland,2015,63800,1.99375,year
 Iceland,2016,63800,1.99375,year
 Iceland,2017,63800,1.99375,year
 Iceland,2018,63800,1.99375,year
+Israel,2000,0,0,year
+Israel,2001,0,0,year
+Israel,2002,0,0,year
+Israel,2003,0,0,year
+Israel,2004,0,0,year
+Israel,2005,0,0,year
+Israel,2006,0,0,year
+Israel,2007,0,0,year
+Israel,2008,0,0,year
+Israel,2009,0,0,year
+Israel,2010,0,0,year
+Israel,2011,0,0,year
+Israel,2012,0,0,year
+Israel,2013,0,0,year
+Israel,2014,0,0,year
+Israel,2015,0,0,year
+Israel,2016,0,0,year
+Israel,2017,0,0,year
+Israel,2018,0,0,year
 Italy,2000,78829000,2463.40625,year
 Italy,2001,78829000,2463.40625,year
 Italy,2002,78829000,2463.40625,year
@@ -1126,20 +1496,236 @@ Ireland,2015,193000,6.03125,year
 Ireland,2016,193000,6.03125,year
 Ireland,2017,193000,6.03125,year
 Ireland,2018,193000,6.03125,year
+Japan,2000,24547366.05,767.1051891,year
+Japan,2001,24602440.24,768.8262575,year
+Japan,2002,24602440.24,768.8262575,year
+Japan,2003,24602440.24,768.8262575,year
+Japan,2004,24602440.24,768.8262575,year
+Japan,2005,24602440.24,768.8262575,year
+Japan,2006,24602440.24,768.8262575,year
+Japan,2007,24602440.24,768.8262575,year
+Japan,2008,24602440.24,768.8262575,year
+Japan,2009,24602440.24,768.8262575,year
+Japan,2010,24602440.24,768.8262575,year
+Japan,2011,24602440.24,768.8262575,year
+Japan,2012,24602440.24,768.8262575,year
+Japan,2013,24602440.24,768.8262575,year
+Japan,2014,24602440.24,768.8262575,year
+Japan,2015,24602440.24,768.8262575,year
+Japan,2016,24602440.24,768.8262575,year
+Japan,2017,24602440.24,768.8262575,year
+Japan,2018,24602440.24,768.8262575,year
+Kazakhstan,2000,1839505.837,57.4845574,year
+Kazakhstan,2001,1839679.72,57.48999125,year
+Kazakhstan,2002,1708402.312,53.38757226,year
+Kazakhstan,2003,1739762.109,54.36756591,year
+Kazakhstan,2004,1834616.938,57.33177931,year
+Kazakhstan,2005,1921075.932,60.03362287,year
+Kazakhstan,2006,2164925.247,67.65391397,year
+Kazakhstan,2007,2236000.405,69.87501266,year
+Kazakhstan,2008,2312898.039,72.27806372,year
+Kazakhstan,2009,2265097.012,70.78428163,year
+Kazakhstan,2010,2164330.986,67.63534331,year
+Kazakhstan,2011,2636293.481,82.38417128,year
+Kazakhstan,2012,3706623.827,115.8319946,year
+Kazakhstan,2013,4620236.288,144.382384,year
+Kazakhstan,2014,6166127.934,192.6914979,year
+Kazakhstan,2015,7132111.951,222.8784985,year
+Kazakhstan,2016,8296622.268,259.2694459,year
+Kazakhstan,2017,9639786.426,301.2433258,year
+Kazakhstan,2018,11267159.01,352.0987192,year
+Kenya,2000,474,0.0148125,year
+Kenya,2001,474,0.0148125,year
+Kenya,2002,500,0.015625,year
+Kenya,2003,500,0.015625,year
+Kenya,2004,500,0.015625,year
+Kenya,2005,500,0.015625,year
+Kenya,2006,500,0.015625,year
+Kenya,2007,500,0.015625,year
+Kenya,2008,500,0.015625,year
+Kenya,2009,500,0.015625,year
+Kenya,2010,500,0.015625,year
+Kenya,2011,500,0.015625,year
+Kenya,2012,500,0.015625,year
+Kenya,2013,600,0.01875,year
+Kenya,2014,600,0.01875,year
+Kenya,2015,600,0.01875,year
+Kenya,2016,600,0.01875,year
+Kenya,2017,600,0.01875,year
+Kenya,2018,0,0,year
+Jordan,2000,400871,12.52721875,year
+Jordan,2001,405000,12.65625,year
+Jordan,2002,409898,12.8093125,year
+Jordan,2003,410967,12.84271875,year
+Jordan,2004,411000,12.84375,year
+Jordan,2005,411000,12.84375,year
+Jordan,2006,409300,12.790625,year
+Jordan,2007,459300,14.353125,year
+Jordan,2008,410300,12.821875,year
 Jordan,2009,410000,12.8125,year
 Jordan,2010,410000,12.8125,year
 Jordan,2011,410000,12.8125,year
+Jordan,2012,445363,13.91759375,year
 Jordan,2013,500000,15.625,year
 Jordan,2014,620000,19.375,year
 Jordan,2015,1330000,41.5625,year
 Jordan,2016,1330000,41.5625,year
+Jamaica,2000,0,0,year
+Jamaica,2001,0,0,year
+Jamaica,2002,0,0,year
+Jamaica,2003,0,0,year
+Jamaica,2004,0,0,year
+Jamaica,2005,0,0,year
+Jamaica,2006,0,0,year
+Jamaica,2007,0,0,year
+Jamaica,2008,0,0,year
+Jamaica,2009,0,0,year
+Jamaica,2010,0,0,year
+Jamaica,2011,0,0,year
+Jamaica,2012,0,0,year
+Jamaica,2013,0,0,year
+Jamaica,2014,0,0,year
+Jamaica,2015,0,0,year
+Jamaica,2016,0,0,year
+Jamaica,2017,0,0,year
+Jamaica,2018,0,0,year
+Kuwait,2000,2538571.219,79.33035059,year
+Kuwait,2001,2538571.219,79.33035059,year
+Kuwait,2002,2538571.219,79.33035059,year
+Kuwait,2003,2538571.219,79.33035059,year
+Kuwait,2004,2538571.219,79.33035059,year
+Kuwait,2005,2538571.219,79.33035059,year
+Kuwait,2006,2538571.219,79.33035059,year
+Kuwait,2007,2538571.219,79.33035059,year
+Kuwait,2008,2538571.219,79.33035059,year
+Kuwait,2009,2538571.219,79.33035059,year
+Kuwait,2010,2536571.219,79.26785059,year
+Kuwait,2011,2538571.219,79.33035059,year
+Kuwait,2012,2538571.219,79.33035059,year
+Kuwait,2013,2538571.219,79.33035059,year
+Kuwait,2014,2538571.219,79.33035059,year
+Kuwait,2015,2538571.219,79.33035059,year
+Kuwait,2016,2538571.219,79.33035059,year
+Kuwait,2017,2538500,79.328125,year
+Kuwait,2018,2538571.219,79.33035059,year
+Kyrgyz Republic,2000,83089.93,2.596560313,year
+Kyrgyz Republic,2001,83100,2.596875,year
+Kyrgyz Republic,2002,83100,2.596875,year
+Kyrgyz Republic,2003,83090,2.5965625,year
+Kyrgyz Republic,2004,83090,2.5965625,year
+Kyrgyz Republic,2005,83089.993,2.596562281,year
+Kyrgyz Republic,2006,83089.993,2.596562281,year
+Kyrgyz Republic,2007,83089.993,2.596562281,year
+Kyrgyz Republic,2008,83089.993,2.596562281,year
+Kyrgyz Republic,2009,83090,2.5965625,year
+Kyrgyz Republic,2010,83090,2.5965625,year
+Kyrgyz Republic,2011,83887.7,2.621490625,year
+Kyrgyz Republic,2012,98273.208,3.07103775,year
+Kyrgyz Republic,2013,116060,3.626875,year
+Kyrgyz Republic,2014,126616.749,3.956773406,year
+Kyrgyz Republic,2015,135861.229,4.245663406,year
+Kyrgyz Republic,2016,147173.579,4.599174344,year
+Kyrgyz Republic,2017,223380.456,6.98063925,year
+Kyrgyz Republic,2018,359889.711,11.24655347,year
+Lao People's Democratic Republic,2000,16857.14286,0.526785714,year
+Lao People's Democratic Republic,2001,72285.71429,2.258928571,year
+Lao People's Democratic Republic,2002,72285.71429,2.258928571,year
+Lao People's Democratic Republic,2003,117142.8571,3.660714286,year
+Lao People's Democratic Republic,2004,117142.8571,3.660714286,year
+Lao People's Democratic Republic,2005,145714.2857,4.553571429,year
 Lao People's Democratic Republic,2006,210000,6.5625,year
 Lao People's Democratic Republic,2007,210000,6.5625,year
+Lao People's Democratic Republic,2008,285428.5714,8.919642857,year
+Lao People's Democratic Republic,2009,285428.5714,8.919642857,year
+Lao People's Democratic Republic,2010,285428.5714,8.919642857,year
+Lao People's Democratic Republic,2011,285428.5714,8.919642857,year
+Lao People's Democratic Republic,2012,285428.5714,8.919642857,year
+Lao People's Democratic Republic,2013,285000,8.90625,year
+Lao People's Democratic Republic,2014,285000,8.90625,year
+Lao People's Democratic Republic,2015,10703.98,0.334499375,year
+Lao People's Democratic Republic,2016,28322.58914,0.885080911,year
+Lao People's Democratic Republic,2017,28322.58914,0.885080911,year
+Lao People's Democratic Republic,2018,28322.58914,0.885080911,year
+"Kosovo, Republic of",2007,0,0,year
+"Kosovo, Republic of",2008,0,0,year
+"Kosovo, Republic of",2009,0,0,year
+"Kosovo, Republic of",2010,0,0,year
+"Kosovo, Republic of",2011,0,0,year
+"Kosovo, Republic of",2012,0,0,year
+"Kosovo, Republic of",2013,0,0,year
+"Kosovo, Republic of",2014,0,0,year
+"Kosovo, Republic of",2015,0,0,year
+"Kosovo, Republic of",2016,0,0,year
+"Kosovo, Republic of",2017,0,0,year
+"Kosovo, Republic of",2018,0,0,year
+"Korea, Republic of",2000,439082.4184,13.72132557,year
+"Korea, Republic of",2001,441654.4762,13.80170238,year
+"Korea, Republic of",2002,444483.7398,13.89011687,year
+"Korea, Republic of",2003,449306.3482,14.04082338,year
+"Korea, Republic of",2004,454161.1073,14.1925346,year
+"Korea, Republic of",2005,457761.9882,14.30506213,year
+"Korea, Republic of",2006,418087.9965,13.06524989,year
+"Korea, Republic of",2007,458790.8113,14.33721285,year
+"Korea, Republic of",2008,460398.3475,14.38744836,year
+"Korea, Republic of",2009,463645.5704,14.48892408,year
+"Korea, Republic of",2010,464159.982,14.50499944,year
+"Korea, Republic of",2011,1750221.036,54.69440738,year
+"Korea, Republic of",2012,2714742.714,84.83570981,year
+"Korea, Republic of",2013,3357757.166,104.9299114,year
+"Korea, Republic of",2014,3357982.221,104.9369444,year
+"Korea, Republic of",2015,3356535.438,104.8917324,year
+"Korea, Republic of",2016,3356535.438,104.8917324,year
+"Korea, Republic of",2017,3356535.438,104.8917324,year
+"Korea, Republic of",2018,3356535.438,104.8917324,year
+Lebanon,2013,9222000,288.1875,year
+Lebanon,2014,9222000,288.1875,year
+Lebanon,2015,9222000,288.1875,year
+Lebanon,2016,9222000,288.1875,year
+Lebanon,2000,9222000,288.1875,year
+Lebanon,2001,9222000,288.1875,year
+Lebanon,2002,9222000,288.1875,year
+Lebanon,2003,9222000,288.1875,year
+Lebanon,2004,9222000,288.1875,year
+Lebanon,2005,9222000,288.1875,year
+Lebanon,2006,9222000,288.1875,year
+Lebanon,2007,9222000,288.1875,year
+Lebanon,2008,9222000,288.1875,year
+Lebanon,2009,9222000,288.1875,year
+Lebanon,2010,9222000,288.1875,year
+Lebanon,2011,9222000,288.1875,year
+Lebanon,2012,9222000,288.1875,year
+Lebanon,2017,9222000,288.1875,year
+Lebanon,2018,9222000,288.1875,year
+Latvia,2000,248700,7.771875,year
+Latvia,2001,248600,7.76875,year
+Latvia,2002,248600,7.76875,year
+Latvia,2003,248600,7.76875,year
+Latvia,2004,248600,7.76875,year
+Latvia,2005,248700,7.771875,year
+Latvia,2006,248700,7.771875,year
+Latvia,2007,248700,7.771875,year
+Latvia,2008,248700,7.771875,year
+Latvia,2009,248700,7.771875,year
+Latvia,2010,248700,7.771875,year
+Latvia,2011,248700,7.771875,year
+Latvia,2012,248700,7.771875,year
+Latvia,2013,248700,7.771875,year
 Latvia,2014,213000,6.65625,year
 Latvia,2015,213000,6.65625,year
 Latvia,2016,213000,6.65625,year
 Latvia,2017,213000,6.65625,year
 Latvia,2018,213000,6.65625,year
+Libya,2000,4624000,144.5,year
+Libya,2001,4624000,144.5,year
+Libya,2002,4624000,144.5,year
+Libya,2003,4624000,144.5,year
+Libya,2004,4624000,144.5,year
+Libya,2005,4624000,144.5,year
+Libya,2006,4624000,144.5,year
+Libya,2007,4624000,144.5,year
+Libya,2008,4624000,144.5,year
+Libya,2009,4624000,144.5,year
+Libya,2010,4624000,144.5,year
 Libya,2011,3750000,117.1875,year
 Libya,2012,3750000,117.1875,year
 Libya,2013,3750000,117.1875,year
@@ -1148,6 +1734,15 @@ Libya,2015,3750000,117.1875,year
 Libya,2016,3750000,117.1875,year
 Libya,2017,3750000,117.1875,year
 Libya,2018,3750000,117.1875,year
+Lithuania,2000,186300,5.821875,year
+Lithuania,2001,186100,5.815625,year
+Lithuania,2002,186200,5.81875,year
+Lithuania,2003,186200,5.81875,year
+Lithuania,2004,185800,5.80625,year
+Lithuania,2005,185800,5.80625,year
+Lithuania,2006,185800,5.80625,year
+Lithuania,2007,186300,5.821875,year
+Lithuania,2008,186700,5.834375,year
 Lithuania,2009,187000,5.84375,year
 Lithuania,2010,187000,5.84375,year
 Lithuania,2011,187000,5.84375,year
@@ -1170,17 +1765,151 @@ Malawi,2008,12800,0.4,year
 Malawi,2009,12800,0.4,year
 Malawi,2010,12800,0.4,year
 Malawi,2011,12800,0.4,year
+Malawi,2012,12874.82,0.402338125,year
+Malawi,2013,12836.998,0.401156188,year
+Malawi,2014,12836.998,0.401156188,year
+Maldives,2000,0,0,year
+Maldives,2001,0,0,year
+Maldives,2002,0,0,year
+Maldives,2003,0,0,year
+Maldives,2004,0,0,year
+Maldives,2005,0,0,year
+Maldives,2006,0,0,year
+Maldives,2007,0,0,year
+Maldives,2008,0,0,year
+Maldives,2009,0,0,year
+Maldives,2010,0,0,year
+Maldives,2011,0,0,year
+Maldives,2012,0,0,year
+Maldives,2013,0,0,year
+Maldives,2014,0,0,year
+Maldives,2015,0,0,year
+Maldives,2016,0,0,year
+Maldives,2017,0,0,year
+Maldives,2018,0,0,year
+Luxembourg,2000,76000,2.375,year
+Luxembourg,2001,76000,2.375,year
+Luxembourg,2002,76000,2.375,year
 Luxembourg,2003,75000,2.34375,year
 Luxembourg,2004,74000,2.3125,year
 Luxembourg,2005,74000,2.3125,year
 Luxembourg,2006,74000,2.3125,year
 Luxembourg,2007,74000,2.3125,year
+Luxembourg,2008,73000,2.28125,year
+Luxembourg,2009,72000,2.25,year
+Luxembourg,2010,72000,2.25,year
+Luxembourg,2011,72000,2.25,year
+Luxembourg,2012,72000,2.25,year
+Luxembourg,2013,72000,2.25,year
+Luxembourg,2014,72000,2.25,year
+Luxembourg,2015,72000,2.25,year
+Luxembourg,2016,72000,2.25,year
+Luxembourg,2017,72000,2.25,year
+Luxembourg,2018,72000,2.25,year
+Malaysia,2000,1170000,36.5625,year
+Malaysia,2001,1170000,36.5625,year
+Malaysia,2002,1170000,36.5625,year
+Malaysia,2003,1170000,36.5625,year
+Malaysia,2004,1170000,36.5625,year
+Malaysia,2005,1170000,36.5625,year
+Malaysia,2006,1170000,36.5625,year
+Malaysia,2007,1170000,36.5625,year
+Malaysia,2008,1170000,36.5625,year
+Malaysia,2009,1170000,36.5625,year
+Malaysia,2010,1170000,36.5625,year
+Malaysia,2011,1170000,36.5625,year
+Malaysia,2012,1170000,36.5625,year
+Malaysia,2013,1170000,36.5625,year
+Malaysia,2014,1150000,35.9375,year
+Malaysia,2015,1230000,38.4375,year
+Malaysia,2016,1230000,38.4375,year
+Malaysia,2017,1210000,37.8125,year
+Malaysia,2018,1250000,39.0625,year
+Mali,2000,0,0,year
+Mali,2001,0,0,year
+Mali,2002,0,0,year
+Mali,2003,0,0,year
+Mali,2004,0,0,year
+Mali,2005,0,0,year
+Mali,2006,0,0,year
+Mali,2007,0,0,year
+Mali,2008,0,0,year
+Mali,2009,0,0,year
+Mali,2010,0,0,year
+Mali,2011,0,0,year
+Mali,2012,0,0,year
+Mali,2013,0,0,year
+Mali,2014,0,0,year
+Mali,2015,0,0,year
+Mali,2016,0,0,year
+Mali,2017,0,0,year
+Mali,2018,0,0,year
+"Micronesia, Federated States of",2000,0,0,year
+"Micronesia, Federated States of",2001,0,0,year
+"Micronesia, Federated States of",2002,0,0,year
+"Micronesia, Federated States of",2003,0,0,year
+"Micronesia, Federated States of",2004,0,0,year
+"Micronesia, Federated States of",2005,0,0,year
+"Micronesia, Federated States of",2006,0,0,year
+"Micronesia, Federated States of",2007,0,0,year
+"Micronesia, Federated States of",2008,0,0,year
+"Micronesia, Federated States of",2009,0,0,year
+"Micronesia, Federated States of",2010,0,0,year
+"Micronesia, Federated States of",2011,0,0,year
+"Micronesia, Federated States of",2012,0,0,year
+"Micronesia, Federated States of",2013,0,0,year
+"Micronesia, Federated States of",2014,0,0,year
+"Micronesia, Federated States of",2015,0,0,year
+"Micronesia, Federated States of",2016,0,0,year
+"Micronesia, Federated States of",2017,0,0,year
+Mauritius,2015,285580,8.924375,year
+Mauritius,2016,399590,12.4871875,year
+Mauritius,2000,61690,1.9278125,year
+Mauritius,2001,61690,1.9278125,year
+Mauritius,2002,61690,1.9278125,year
+Mauritius,2003,61690,1.9278125,year
+Mauritius,2004,61690,1.9278125,year
+Mauritius,2005,61690,1.9278125,year
+Mauritius,2006,61690,1.9278125,year
+Mauritius,2007,61690,1.9278125,year
+Mauritius,2008,61480,1.92125,year
+Mauritius,2009,125780,3.930625,year
+Mauritius,2010,125781,3.93065625,year
+Mauritius,2011,125780,3.930625,year
 Mauritius,2012,130000,4.0625,year
+Mauritius,2013,125000,3.90625,year
+Mauritius,2014,253880,7.93375,year
+Mauritius,2017,399850,12.4953125,year
+Mauritius,2018,399850,12.4953125,year
+Mexico,2000,249361.0044,7.792531387,year
+Mexico,2001,231195.8461,7.224870191,year
+Mexico,2002,224669.2494,7.020914045,year
+Mexico,2003,170302.3775,5.321949298,year
+Mexico,2004,139276.9302,4.35240407,year
+Mexico,2005,108315.7844,3.384868262,year
+Mexico,2006,92529.77961,2.891555613,year
+Mexico,2007,118668.3171,3.708384908,year
+Mexico,2008,199752.4394,6.242263732,year
+Mexico,2009,275499.5419,8.609360683,year
+Mexico,2010,226984.1015,7.093253171,year
+Mexico,2011,3407783.69,106.4932403,year
+Mexico,2012,4003858.087,125.1205652,year
+Mexico,2013,3958171.91,123.6928722,year
+Mexico,2014,3945633.128,123.3010353,year
+Mexico,2015,3904608.806,122.0190252,year
+Mexico,2016,3872779.591,121.0243622,year
+Mexico,2017,3865256.322,120.7892601,year
+Mexico,2018,3858601.122,120.5812851,year
 Malta,2000,4000,0.125,year
+Malta,2001,5000,0.15625,year
+Malta,2002,3558.785,0.111212031,year
+Malta,2003,3557.615,0.111175469,year
 Malta,2004,4000,0.125,year
 Malta,2005,4000,0.125,year
 Malta,2006,5600,0.175,year
 Malta,2007,16000,0.5,year
+Malta,2008,5900,0.184375,year
+Malta,2009,5900,0.184375,year
 Malta,2010,3100,0.096875,year
 Malta,2011,10000,0.3125,year
 Malta,2012,10000,0.3125,year
@@ -1190,12 +1919,251 @@ Malta,2015,3000,0.09375,year
 Malta,2016,3000,0.09375,year
 Malta,2017,3000,0.09375,year
 Malta,2018,3000,0.09375,year
+Mauritania,2000,11500,0.359375,year
+Mauritania,2001,11500,0.359375,year
+Mauritania,2002,11500,0.359375,year
+Mauritania,2003,11500,0.359375,year
+Mauritania,2004,11500,0.359375,year
+Mauritania,2005,11500,0.359375,year
+Mauritania,2006,11500,0.359375,year
+Mauritania,2007,11500,0.359375,year
+Mauritania,2008,11500,0.359375,year
+Mauritania,2009,11500,0.359375,year
+Mauritania,2010,11500,0.359375,year
+Mauritania,2011,11500,0.359375,year
+Mauritania,2012,11500,0.359375,year
+Mauritania,2013,11500,0.359375,year
+Mauritania,2014,11500,0.359375,year
+Mauritania,2015,11500,0.359375,year
+Mauritania,2016,11500,0.359375,year
+Mauritania,2017,11500,0.359375,year
+Mauritania,2018,11500,0.359375,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2000,44713118.25,1397.284945,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2001,44716498.25,1397.39057,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2002,44434713.09,1388.584784,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2003,44041670.1,1376.302191,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2004,40111157.97,1253.473687,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2005,40088566.64,1252.767708,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2006,40086869.35,1252.714667,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2007,40520650.35,1266.270323,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2008,45992793.29,1437.27479,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2009,45993493.29,1437.296665,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2010,45956658.46,1436.145577,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2011,45084651.71,1408.895366,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2012,45890002.15,1434.062567,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2013,46345958.15,1448.311192,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2014,47998097.86,1499.940558,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2015,49266180.07,1539.568127,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2016,49508970.84,1547.155339,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2017,49614948.07,1550.467127,year
+"Middle East, North Africa, Afghanistan, and Pakistan",2018,49932846.02,1560.401438,year
+Montenegro,2002,0,0,year
+Montenegro,2003,0,0,year
+Montenegro,2004,0,0,year
+Montenegro,2005,0,0,year
+Montenegro,2006,38477.69,1.202427813,year
+Montenegro,2007,0,0,year
+Montenegro,2008,0,0,year
+Montenegro,2009,0,0,year
+Montenegro,2010,0,0,year
+Montenegro,2011,0,0,year
+Montenegro,2012,0,0,year
+Montenegro,2013,0,0,year
+Montenegro,2014,0,0,year
+Montenegro,2015,0,0,year
+Montenegro,2016,0,0,year
+Montenegro,2017,0,0,year
+Montenegro,2018,0,0,year
+Moldova,2000,0,0,year
+Moldova,2001,0,0,year
+Moldova,2002,0,0,year
+Moldova,2003,0,0,year
+Moldova,2004,0,0,year
+Moldova,2005,0,0,year
+Moldova,2006,0,0,year
+Moldova,2007,0,0,year
+Moldova,2008,0,0,year
+Moldova,2009,0,0,year
+Moldova,2010,0,0,year
+Moldova,2011,227.3060997,0.007103316,year
+Moldova,2012,2383.446483,0.074482703,year
+Moldova,2013,2383.446483,0.074482703,year
+Moldova,2014,2383.446483,0.074482703,year
+Moldova,2015,2383.446483,0.074482703,year
+Moldova,2016,2383.446483,0.074482703,year
+Moldova,2017,2383.446483,0.074482703,year
+Moldova,2018,2383.446483,0.074482703,year
+Morocco,2000,706000,22.0625,year
 Morocco,2001,707000,22.09375,year
+Morocco,2002,707977,22.12428125,year
+Morocco,2003,708025.425,22.12579453,year
+Morocco,2004,708021.295,22.12566547,year
+Morocco,2005,708021.295,22.12566547,year
 Morocco,2006,708000,22.125,year
 Morocco,2007,708000,22.125,year
 Morocco,2008,708000,22.125,year
+Morocco,2009,709000,22.15625,year
+Morocco,2010,708765.17,22.14891156,year
+Morocco,2011,708765.536,22.148923,year
+Morocco,2012,708765.537,22.14892303,year
+Morocco,2013,708766.569,22.14895528,year
+Morocco,2014,709368.207,22.16775647,year
+Morocco,2015,710249.98,22.19531187,year
+Morocco,2016,710467.43,22.20210719,year
+Morocco,2017,710712.45,22.20976406,year
+Morocco,2018,711032.19,22.21975594,year
+Mongolia,2000,84928.6,2.65401875,year
+Mongolia,2001,184138.56,5.75433,year
+Mongolia,2002,142470.77,4.452211563,year
 Mongolia,2003,16000,0.5,year
+Mongolia,2004,32184.19,1.005755938,year
+Mongolia,2005,0,0,year
+Mongolia,2006,214286.63,6.696457188,year
 Mongolia,2007,240000,7.5,year
+Mongolia,2008,109451.6,3.4203625,year
+Mongolia,2009,29944.86,0.935776875,year
+Mongolia,2010,64791.83,2.024744688,year
+Mongolia,2011,112768.86,3.524026875,year
+Mongolia,2012,117717.78,3.678680625,year
+Mongolia,2013,126233.07,3.944783438,year
+Mongolia,2014,92397.5,2.887421875,year
+Mongolia,2015,71691.5,2.240359375,year
+Mongolia,2016,55900.69,1.746896563,year
+Mongolia,2017,136878.403,4.277450094,year
+Mongolia,2018,600581.44,18.76817,year
+Myanmar,2000,231400,7.23125,year
+Myanmar,2001,231400,7.23125,year
+Myanmar,2002,231400,7.23125,year
+Myanmar,2003,231400,7.23125,year
+Myanmar,2004,231400,7.23125,year
+Myanmar,2005,231400,7.23125,year
+Myanmar,2006,231400,7.23125,year
+Myanmar,2007,233700,7.303125,year
+Myanmar,2008,233700,7.303125,year
+Myanmar,2009,233700,7.303125,year
+Myanmar,2010,233700,7.303125,year
+Myanmar,2011,233700,7.303125,year
+Myanmar,2012,233700,7.303125,year
+Myanmar,2013,233700,7.303125,year
+Myanmar,2014,233700,7.303125,year
+Myanmar,2015,233700,7.303125,year
+Myanmar,2016,233700,7.303125,year
+Myanmar,2017,233700,7.303125,year
+Myanmar,2018,233700,7.303125,year
+Namibia,2000,0,0,year
+Namibia,2001,0,0,year
+Namibia,2002,0,0,year
+Namibia,2003,0,0,year
+Namibia,2004,0,0,year
+Namibia,2005,0,0,year
+Namibia,2006,0,0,year
+Namibia,2007,0,0,year
+Namibia,2008,0,0,year
+Namibia,2009,0,0,year
+Namibia,2010,0,0,year
+Namibia,2011,0,0,year
+Namibia,2012,0,0,year
+Namibia,2013,0,0,year
+Namibia,2014,0,0,year
+Namibia,2015,0,0,year
+Namibia,2016,0,0,year
+Namibia,2017,0,0,year
+Namibia,2018,0,0,year
+Nepal,2000,152806,4.7751875,year
+Nepal,2001,152800,4.775,year
+Nepal,2002,152804,4.775125,year
+Nepal,2003,152804,4.775125,year
+Nepal,2004,152799,4.77496875,year
+Nepal,2005,129081,4.03378125,year
+Nepal,2006,0,0,year
+Nepal,2007,0,0,year
+Nepal,2008,0,0,year
+Nepal,2009,46813.322,1.462916313,year
+Nepal,2010,46813.322,1.462916313,year
+Nepal,2011,46813.322,1.462916313,year
+Nepal,2012,66813.32,2.08791625,year
+Nepal,2013,116813.32,3.65041625,year
+Nepal,2014,156813.32,4.90041625,year
+Nepal,2015,196813.32,6.15041625,year
+Nepal,2016,206813.32,6.46291625,year
+Nepal,2017,206813.32,6.46291625,year
+Nepal,2018,206813.32,6.46291625,year
+Mozambique,2000,69746,2.1795625,year
+Mozambique,2001,49746.47,1.554577188,year
+Mozambique,2002,64746.47,2.023327188,year
+Mozambique,2003,24746.47,0.773327188,year
+Mozambique,2004,64742.7,2.023209375,year
+Mozambique,2005,95211.177,2.975349281,year
+Mozambique,2006,95211.175,2.975349219,year
+Mozambique,2007,95211.175,2.975349219,year
+Mozambique,2008,95211.175,2.975349219,year
+Mozambique,2009,75211.175,2.350349219,year
+Mozambique,2010,75200,2.35,year
+Mozambique,2011,80189.405,2.505918906,year
+Mozambique,2012,115189.405,3.599668906,year
+Mozambique,2013,175189.405,5.474668906,year
+Mozambique,2014,175189.405,5.474668906,year
+Mozambique,2015,160194.405,5.006075156,year
+Mozambique,2016,140285.65,4.383926563,year
+Mozambique,2017,140308.6458,4.384645181,year
+Mozambique,2018,140484.8967,4.390153021,year
+Netherlands,2000,29315000,916.09375,year
+Netherlands,2001,28438000,888.6875,year
+Netherlands,2002,27382000,855.6875,year
+Netherlands,2003,24996000,781.125,year
+Netherlands,2004,24996000,781.125,year
+Netherlands,2005,22343000,698.21875,year
+Netherlands,2006,20607000,643.96875,year
+Netherlands,2007,19980000,624.375,year
+Netherlands,2008,19691000,615.34375,year
+Netherlands,2009,19691000,615.34375,year
+Netherlands,2010,19691000,615.34375,year
+Netherlands,2011,19691000,615.34375,year
+Netherlands,2012,19691000,615.34375,year
+Netherlands,2013,19691000,615.34375,year
+Netherlands,2014,19691000,615.34375,year
+Netherlands,2015,19691000,615.34375,year
+Netherlands,2016,19691000,615.34375,year
+Netherlands,2017,19691000,615.34375,year
+Netherlands,2018,19691000,615.34375,year
+Niger,2000,0,0,year
+Niger,2001,0,0,year
+Niger,2002,0,0,year
+Niger,2003,0,0,year
+Niger,2004,0,0,year
+Niger,2005,0,0,year
+Niger,2006,0,0,year
+Niger,2007,0,0,year
+Niger,2008,0,0,year
+Niger,2009,0,0,year
+Niger,2010,0,0,year
+Niger,2011,0,0,year
+Niger,2012,0,0,year
+Niger,2013,0,0,year
+Niger,2014,0,0,year
+Niger,2015,0,0,year
+Niger,2016,0,0,year
+Niger,2017,0,0,year
+Niger,2018,0,0,year
+New Zealand,2000,0,0,year
+New Zealand,2001,0,0,year
+New Zealand,2002,0,0,year
+New Zealand,2003,0,0,year
+New Zealand,2004,0,0,year
+New Zealand,2005,0,0,year
+New Zealand,2006,0,0,year
+New Zealand,2007,0,0,year
+New Zealand,2008,0,0,year
+New Zealand,2009,0,0,year
+New Zealand,2010,0,0,year
+New Zealand,2011,0,0,year
+New Zealand,2012,0,0,year
+New Zealand,2013,0,0,year
+New Zealand,2014,0,0,year
+New Zealand,2015,0,0,year
+New Zealand,2016,0,0,year
+New Zealand,2017,0,0,year
+New Zealand,2018,0,0,year
 Netherlands Antilles,2000,421000,13.15625,year
 Netherlands Antilles,2001,421000,13.15625,year
 Netherlands Antilles,2002,421000,13.15625,year
@@ -1206,21 +2174,415 @@ Netherlands Antilles,2006,421000,13.15625,year
 Netherlands Antilles,2007,421000,13.15625,year
 Netherlands Antilles,2008,421000,13.15625,year
 Netherlands Antilles,2009,421000,13.15625,year
+Nigeria,2000,687000,21.46875,year
+Nigeria,2001,687000,21.46875,year
+Nigeria,2002,687000,21.46875,year
+Nigeria,2003,687000,21.46875,year
+Nigeria,2004,687000,21.46875,year
+Nigeria,2005,687000,21.46875,year
+Nigeria,2006,687000,21.46875,year
+Nigeria,2007,687000,21.46875,year
+Nigeria,2008,687000,21.46875,year
+Nigeria,2009,687000,21.46875,year
+Nigeria,2010,687000,21.46875,year
+Nigeria,2011,687000,21.46875,year
+Nigeria,2012,687000,21.46875,year
+Nigeria,2013,687000,21.46875,year
+Nigeria,2014,687000,21.46875,year
+Nigeria,2015,687000,21.46875,year
+Nigeria,2016,687000,21.46875,year
+Nigeria,2017,687000,21.46875,year
+Nicaragua,2000,14655.62,0.457988125,year
+Nicaragua,2001,14798.53,0.462454063,year
+Nicaragua,2002,14798.53,0.462454063,year
+Nicaragua,2003,14798.53,0.462454063,year
+Nicaragua,2004,0,0,year
+Nicaragua,2005,0,0,year
+Nicaragua,2006,0,0,year
+Nicaragua,2007,0,0,year
+Nicaragua,2008,0,0,year
+Nicaragua,2009,0,0,year
+Nicaragua,2010,0,0,year
+Nicaragua,2011,0,0,year
+Nicaragua,2012,0,0,year
+Nicaragua,2013,0,0,year
+Nicaragua,2014,0,0,year
+Nicaragua,2015,0,0,year
+Nicaragua,2016,0,0,year
+Nicaragua,2017,0,0,year
+Nicaragua,2018,0,0,year
+"North Macedonia, Republic of",2000,112334.6247,3.510457023,year
+"North Macedonia, Republic of",2001,194126.063,6.066439468,year
+"North Macedonia, Republic of",2002,198144.9033,6.192028228,year
+"North Macedonia, Republic of",2003,88864.59723,2.777018663,year
+"North Macedonia, Republic of",2004,197405.4367,6.168919896,year
+"North Macedonia, Republic of",2005,218271.2556,6.820976739,year
+"North Macedonia, Republic of",2006,218271.2556,6.820976739,year
+"North Macedonia, Republic of",2007,218271.2556,6.820976739,year
+"North Macedonia, Republic of",2008,218271.2556,6.820976739,year
+"North Macedonia, Republic of",2009,218271.2556,6.820976739,year
+"North Macedonia, Republic of",2010,218239.1049,6.819972029,year
+"North Macedonia, Republic of",2011,219453.4213,6.857919416,year
+"North Macedonia, Republic of",2012,218331.949,6.822873407,year
+"North Macedonia, Republic of",2013,218342.66,6.823208125,year
+"North Macedonia, Republic of",2014,218655.7878,6.832993369,year
+"North Macedonia, Republic of",2015,218850.6187,6.839081834,year
+"North Macedonia, Republic of",2016,221163.6673,6.911364602,year
+"North Macedonia, Republic of",2017,221457.1047,6.920534522,year
+"North Macedonia, Republic of",2018,221547.99,6.923374688,year
+Papua New Guinea,2000,63000,1.96875,year
+Papua New Guinea,2001,63000,1.96875,year
+Papua New Guinea,2002,63000,1.96875,year
+Papua New Guinea,2003,63000,1.96875,year
+Papua New Guinea,2004,63000,1.96875,year
+Papua New Guinea,2005,63000,1.96875,year
+Papua New Guinea,2006,63000,1.96875,year
+Papua New Guinea,2007,63000,1.96875,year
+Papua New Guinea,2008,63000,1.96875,year
+Papua New Guinea,2009,63000,1.96875,year
+Papua New Guinea,2010,63000,1.96875,year
+Papua New Guinea,2011,63000,1.96875,year
+Papua New Guinea,2012,63000,1.96875,year
+Papua New Guinea,2013,63000,1.96875,year
+Papua New Guinea,2014,63000,1.96875,year
+Papua New Guinea,2015,63000,1.96875,year
+Papua New Guinea,2016,63000,1.96875,year
+Papua New Guinea,2017,63000,1.96875,year
+Papua New Guinea,2018,63000,1.96875,year
 Norway,2000,1183000,36.96875,year
 Norway,2001,1183000,36.96875,year
+Norway,2002,1182000,36.9375,year
 Norway,2003,1180000,36.875,year
+Norway,2004,0,0,year
+Norway,2005,0,0,year
+Norway,2006,0,0,year
+Norway,2007,0,0,year
+Norway,2008,0,0,year
+Norway,2009,0,0,year
+Norway,2010,0,0,year
+Norway,2011,0,0,year
+Norway,2012,0,0,year
+Norway,2013,0,0,year
+Norway,2014,0,0,year
+Norway,2015,0,0,year
+Norway,2016,0,0,year
+Norway,2017,0,0,year
+Norway,2018,0,0,year
+Oman,2000,290618,9.0818125,year
+Oman,2001,290618,9.0818125,year
+Oman,2002,618,0.0193125,year
+Oman,2003,618,0.0193125,year
+Oman,2004,618,0.0193125,year
+Oman,2005,618,0.0193125,year
+Oman,2006,618,0.0193125,year
+Oman,2007,618,0.0193125,year
+Oman,2008,600,0.01875,year
+Oman,2009,600,0.01875,year
+Oman,2010,600,0.01875,year
+Oman,2011,600,0.01875,year
+Oman,2012,618,0.0193125,year
+Oman,2013,618,0.0193125,year
+Oman,2014,643,0.02009375,year
+Oman,2015,643,0.02009375,year
+Oman,2016,643,0.02009375,year
+Oman,2017,643,0.02009375,year
+Oman,2018,643,0.02009375,year
+Pakistan,2000,2090800,65.3375,year
+Pakistan,2001,2090800,65.3375,year
+Pakistan,2002,2093400,65.41875,year
+Pakistan,2003,2096200,65.50625,year
+Pakistan,2004,2098500,65.578125,year
+Pakistan,2005,2098500,65.578125,year
+Pakistan,2006,2099900,65.621875,year
+Pakistan,2007,2103800,65.74375,year
+Pakistan,2008,2103800,65.74375,year
+Pakistan,2009,2103800,65.74375,year
+Pakistan,2010,2070200,64.69375,year
+Pakistan,2011,2070500,64.703125,year
+Pakistan,2012,2071500,64.734375,year
+Pakistan,2013,2071624.751,64.73827347,year
+Pakistan,2014,2072746.648,64.77333275,year
+Pakistan,2015,2073710.206,64.80344394,year
+Pakistan,2016,2074511.723,64.82849134,year
+Pakistan,2017,2075632.016,64.8635005,year
+Pakistan,2018,2077395.644,64.91861388,year
 Poland,2000,3306000,103.3125,year
 Poland,2001,3308000,103.375,year
 Poland,2002,3309000,103.40625,year
+Poland,2003,3307000,103.34375,year
 Poland,2004,3308000,103.375,year
 Poland,2005,3308000,103.375,year
 Poland,2006,3308000,103.375,year
 Poland,2007,3308000,103.375,year
 Poland,2008,3309000,103.40625,year
+Poland,2009,3308741.109,103.3981597,year
+Poland,2010,3308913.829,103.4035572,year
+Poland,2011,3308913.829,103.4035572,year
+Poland,2012,3308913.829,103.4035572,year
+Poland,2013,3308913.829,103.4035572,year
+Poland,2014,3309194.86,103.4123394,year
+Poland,2015,3309256.48,103.414265,year
+Poland,2016,3310285.053,103.4464079,year
+Poland,2017,3310541.474,103.4544211,year
+Poland,2018,4135690.166,129.2403177,year
+Paraguay,2000,34932,1.091625,year
+Paraguay,2001,34932,1.091625,year
+Paraguay,2002,34932,1.091625,year
+Paraguay,2003,34932,1.091625,year
+Paraguay,2004,0,0,year
+Paraguay,2005,0,0,year
+Paraguay,2006,0,0,year
+Paraguay,2007,0,0,year
+Paraguay,2008,21220,0.663125,year
+Paraguay,2009,21220,0.663125,year
+Paraguay,2010,21220,0.663125,year
+Paraguay,2011,21220,0.663125,year
+Paraguay,2012,263425,8.23203125,year
+Paraguay,2013,263425,8.23203125,year
+Paraguay,2014,263425,8.23203125,year
+Paraguay,2015,263425,8.23203125,year
+Paraguay,2016,263425,8.23203125,year
+Paraguay,2017,263425,8.23203125,year
+Paraguay,2018,263425,8.23203125,year
+Philippines,2000,7228464,225.8895,year
+Philippines,2001,7980444,249.388875,year
+Philippines,2002,8728714,272.7723125,year
+Philippines,2003,8217463,256.7957188,year
+Philippines,2004,7119000,222.46875,year
+Philippines,2005,4967860,155.245625,year
+Philippines,2006,4621050,144.4078125,year
+Philippines,2007,4233410,132.2940625,year
+Philippines,2008,4949380,154.668125,year
+Philippines,2009,4986750,155.8359375,year
+Philippines,2010,4954440,154.82625,year
+Philippines,2011,5116530,159.8915625,year
+Philippines,2012,6196040,193.62625,year
+Philippines,2013,6221472.419,194.4210131,year
+Philippines,2014,6278973.084,196.2179089,year
+Philippines,2015,6298553.055,196.829783,year
+Philippines,2016,6312526.829,197.2664634,year
+Philippines,2017,6313179.54,197.2868606,year
+Philippines,2018,6363458.573,198.8580804,year
+Peru,2008,1114842.423,34.83882572,year
+Peru,2009,1114842.423,34.83882572,year
+Peru,2010,1114842.423,34.83882572,year
+Peru,2011,1114842.423,34.83882572,year
+Peru,2012,1114842.423,34.83882572,year
+Peru,2013,1114842.423,34.83882572,year
+Peru,2014,1114842.423,34.83882572,year
+Peru,2015,1114842.423,34.83882572,year
+Peru,2016,1114842.423,34.83882572,year
+Peru,2000,1100000,34.375,year
+Peru,2001,1114846.149,34.83894216,year
+Peru,2002,1114846.149,34.83894216,year
+Peru,2003,1114842.448,34.8388265,year
+Peru,2004,1114842.448,34.8388265,year
+Peru,2005,1114842.423,34.83882572,year
+Peru,2006,1114842.423,34.83882572,year
+Peru,2007,1114842.423,34.83882572,year
+Peru,2017,1114842.423,34.83882572,year
+Peru,2018,1114842.423,34.83882572,year
+Qatar,2000,19140,0.598125,year
+Qatar,2001,19140,0.598125,year
+Qatar,2002,19140,0.598125,year
+Qatar,2003,19140,0.598125,year
+Qatar,2004,41700,1.303125,year
+Qatar,2005,19110,0.5971875,year
+Qatar,2006,19110,0.5971875,year
+Qatar,2007,399000,12.46875,year
+Qatar,2008,399100,12.471875,year
+Qatar,2009,399100,12.471875,year
+Qatar,2010,399100,12.471875,year
+Qatar,2011,399100,12.471875,year
+Qatar,2012,399100,12.471875,year
+Qatar,2013,399100,12.471875,year
+Qatar,2014,399100,12.471875,year
+Qatar,2015,714339,22.32309375,year
+Qatar,2016,954458.5698,29.8268303,year
+Qatar,2017,954843.4564,29.83885801,year
+Qatar,2018,1004861.739,31.40192935,year
+Portugal,2000,19506000,609.5625,year
+Portugal,2001,19507000,609.59375,year
+Portugal,2002,19028000,594.625,year
+Portugal,2003,16627001,519.5937813,year
+Portugal,2004,14863000,464.46875,year
+Portugal,2005,13422000,419.4375,year
+Portugal,2006,12300000,384.375,year
+Portugal,2007,12299000,384.34375,year
+Portugal,2008,12299000,384.34375,year
+Portugal,2009,12298000,384.3125,year
+Portugal,2010,12298000,384.3125,year
+Portugal,2011,12297000,384.28125,year
+Portugal,2012,12297000,384.28125,year
+Portugal,2013,12297000,384.28125,year
+Portugal,2014,12298000,384.3125,year
+Portugal,2015,12298000,384.3125,year
+Portugal,2016,12297000,384.28125,year
+Portugal,2017,12297696,384.303,year
+Portugal,2018,12298000,384.3125,year
+San Marino,2000,0,0,year
+San Marino,2001,0,0,year
+San Marino,2002,0,0,year
+San Marino,2003,0,0,year
+San Marino,2004,0,0,year
+San Marino,2005,0,0,year
+San Marino,2006,0,0,year
+San Marino,2007,0,0,year
+San Marino,2008,0,0,year
+San Marino,2009,0,0,year
+San Marino,2010,0,0,year
+San Marino,2011,0,0,year
+San Marino,2012,0,0,year
+San Marino,2013,0,0,year
+San Marino,2014,0,0,year
+San Marino,2015,0,0,year
+San Marino,2016,0,0,year
+San Marino,2017,0,0,year
+San Marino,2018,0,0,year
+Rwanda,2012,0,0,year
+Rwanda,2013,0,0,year
+Rwanda,2014,0,0,year
+Rwanda,2015,0,0,year
+Rwanda,2016,0,0,year
+Rwanda,2000,0,0,year
+Rwanda,2001,0,0,year
+Rwanda,2002,0,0,year
+Rwanda,2003,0,0,year
+Rwanda,2004,0,0,year
+Rwanda,2005,0,0,year
+Rwanda,2006,0,0,year
+Rwanda,2007,0,0,year
+Rwanda,2008,0,0,year
+Rwanda,2009,0,0,year
+Rwanda,2010,0,0,year
+Rwanda,2011,0,0,year
+Rwanda,2017,0,0,year
+Rwanda,2018,0,0,year
 Romania,2000,3374000,105.4375,year
+Romania,2001,3382000,105.6875,year
+Romania,2002,3386000,105.8125,year
+Romania,2003,3378000,105.5625,year
+Romania,2004,3376985.361,105.5307925,year
+Romania,2005,3370600,105.33125,year
 Romania,2006,3366000,105.1875,year
+Romania,2007,3334400,104.2,year
+Romania,2008,3334300,104.196875,year
+Romania,2009,3334700,104.209375,year
+Romania,2010,3334700,104.209375,year
+Romania,2011,3334600,104.20625,year
+Romania,2012,3334600,104.20625,year
+Romania,2013,3334599.944,104.2062482,year
+Romania,2014,3334600,104.20625,year
+Romania,2015,3334200,104.19375,year
+Romania,2016,3334000,104.1875,year
+Romania,2017,3334000,104.1875,year
+Romania,2018,3334000,104.1875,year
+Russia,2000,12359000,386.21875,year
+Russia,2001,13599000,424.96875,year
+Russia,2002,12464000,389.5,year
+Russia,2003,12545000,392.03125,year
+Russia,2004,12441000,388.78125,year
+Russia,2005,12438000,388.6875,year
+Russia,2006,12908000,403.375,year
+Russia,2007,14479000,452.46875,year
+Russia,2008,16705000,522.03125,year
+Russia,2009,20867000,652.09375,year
+Russia,2010,25355000,792.34375,year
+Russia,2011,28388000,887.125,year
+Russia,2012,30793000,962.28125,year
+Russia,2013,33283000,1040.09375,year
+Russia,2014,38844457.06,1213.889283,year
+Russia,2015,45479000,1421.21875,year
+Russia,2016,51931000,1622.84375,year
+Russia,2017,59118000,1847.4375,year
+Russia,2018,67936000,2123,year
+Senegal,2011,0,0,year
+Senegal,2012,0,0,year
+Senegal,2013,0,0,year
+Senegal,2014,0,0,year
+Senegal,2015,0,0,year
+Senegal,2016,0,0,year
+Senegal,2000,0,0,year
+Senegal,2001,0,0,year
+Senegal,2002,0,0,year
+Senegal,2003,0,0,year
+Senegal,2004,0,0,year
+Senegal,2005,0,0,year
+Senegal,2006,0,0,year
+Senegal,2007,0,0,year
+Senegal,2008,0,0,year
+Senegal,2009,0,0,year
+Senegal,2010,0,0,year
+Senegal,2017,0,0,year
+Senegal,2018,0,0,year
+"Serbia, Republic of",2000,456540.2607,14.26688315,year
+"Serbia, Republic of",2001,591573.2956,18.48666549,year
+"Serbia, Republic of",2002,327937.3704,10.24804282,year
+"Serbia, Republic of",2003,334367.5149,10.44898484,year
+"Serbia, Republic of",2004,340797.6594,10.64992686,year
+"Serbia, Republic of",2005,417959.3936,13.06123105,year
+"Serbia, Republic of",2006,379378.5265,11.85557895,year
+"Serbia, Republic of",2007,385808.671,12.05652097,year
+"Serbia, Republic of",2008,408314.1769,12.75981803,year
+"Serbia, Republic of",2009,421817.4803,13.18179626,year
+"Serbia, Republic of",2010,421817.4803,13.18179626,year
+"Serbia, Republic of",2011,461041.3619,14.40754256,year
+"Serbia, Republic of",2012,491660.2304,15.3643822,year
+"Serbia, Republic of",2013,522127.7348,16.31649171,year
+"Serbia, Republic of",2014,563923.6742,17.62261482,year
+"Serbia, Republic of",2015,582892.6005,18.21539377,year
+"Serbia, Republic of",2016,601540.0196,18.79812561,year
+"Serbia, Republic of",2017,622438.454,19.45120169,year
+"Serbia, Republic of",2018,656518.245,20.51619516,year
+Saudi Arabia,2000,4596000,143.625,year
+Saudi Arabia,2001,4596000,143.625,year
+Saudi Arabia,2002,4596000,143.625,year
+Saudi Arabia,2003,4596000,143.625,year
+Saudi Arabia,2004,4596000,143.625,year
+Saudi Arabia,2005,4596000,143.625,year
+Saudi Arabia,2006,4596000,143.625,year
+Saudi Arabia,2007,4596000,143.625,year
+Saudi Arabia,2008,10381700,324.428125,year
+Saudi Arabia,2009,10381700,324.428125,year
+Saudi Arabia,2010,10381700,324.428125,year
+Saudi Arabia,2011,10381700,324.428125,year
+Saudi Arabia,2012,10381700,324.428125,year
+Saudi Arabia,2013,10381700,324.428125,year
+Saudi Arabia,2014,10381700,324.428125,year
+Saudi Arabia,2015,10381700,324.428125,year
+Saudi Arabia,2016,10386941,324.5919063,year
+Saudi Arabia,2017,10386941,324.5919063,year
+Saudi Arabia,2018,10386941,324.5919063,year
+Singapore,2000,4096000,128,year
+Singapore,2001,4096000,128,year
+Singapore,2002,4096000,128,year
+Singapore,2003,4096000,128,year
+Singapore,2004,4096000,128,year
+Singapore,2005,4096000,128,year
+Singapore,2006,4096000,128,year
+Singapore,2007,4096000,128,year
+Singapore,2008,4096000,128,year
+Singapore,2009,4096000,128,year
+Singapore,2010,4096000,128,year
+Singapore,2011,4096000,128,year
+Singapore,2012,4096000,128,year
+Singapore,2013,4096000,128,year
+Singapore,2014,4096000,128,year
+Singapore,2015,4096000,128,year
+Singapore,2016,4096000,128,year
+Singapore,2017,4096000,128,year
+Singapore,2018,4096000,128,year
+Slovenia,2000,323.7481312,0.010117129,year
+Slovenia,2001,243111.8684,7.597245889,year
+Slovenia,2002,242885.5274,7.59017273,year
+Slovenia,2003,242857.4501,7.589295316,year
+Slovenia,2004,242843.2948,7.588852963,year
+Slovenia,2005,162496.6168,5.078019275,year
+Slovenia,2006,162495.2818,5.077977556,year
+Slovenia,2007,102550,3.2046875,year
 Slovenia,2008,103000,3.21875,year
 Slovenia,2009,103000,3.21875,year
+Slovenia,2010,102334.14,3.197941875,year
 Slovenia,2011,102000,3.1875,year
 Slovenia,2012,102000,3.1875,year
 Slovenia,2013,102000,3.1875,year
@@ -1230,11 +2592,184 @@ Slovenia,2016,102000,3.1875,year
 Slovenia,2017,102000,3.1875,year
 Slovenia,2018,102000,3.1875,year
 Slovak Republic,2000,1290000,40.3125,year
+Slovak Republic,2001,1129000,35.28125,year
+Slovak Republic,2002,1129000,35.28125,year
+Slovak Republic,2003,1129000,35.28125,year
+Slovak Republic,2004,1129000,35.28125,year
+Slovak Republic,2005,1129000,35.28125,year
+Slovak Republic,2006,1129000,35.28125,year
+Slovak Republic,2007,1129000,35.28125,year
+Slovak Republic,2008,1129000,35.28125,year
+Slovak Republic,2009,1022000,31.9375,year
+Slovak Republic,2010,1022000,31.9375,year
+Slovak Republic,2011,1022000,31.9375,year
+Slovak Republic,2012,1022000,31.9375,year
+Slovak Republic,2013,1022000,31.9375,year
+Slovak Republic,2014,1019000,31.84375,year
+Slovak Republic,2015,1019000,31.84375,year
+Slovak Republic,2016,1019000,31.84375,year
+Slovak Republic,2017,1019000,31.84375,year
+Slovak Republic,2018,1019000,31.84375,year
+Solomon Islands,2012,17681.963,0.552561344,year
+Solomon Islands,2013,24040.37,0.751261563,year
+Solomon Islands,2014,24040.37,0.751261563,year
+Solomon Islands,2015,24040.37,0.751261563,year
+Solomon Islands,2016,24040.37,0.751261563,year
+Solomon Islands,2017,24040.336,0.7512605,year
+Solomon Islands,2018,24040.336,0.7512605,year
+Sri Lanka,2000,336493.02,10.51540688,year
+Sri Lanka,2001,255493.02,7.984156875,year
+Sri Lanka,2002,216493.02,6.765406875,year
+Sri Lanka,2003,165013.017,5.156656781,year
+Sri Lanka,2004,166581,5.20565625,year
+Sri Lanka,2005,166581,5.20565625,year
+Sri Lanka,2006,166581,5.20565625,year
+Sri Lanka,2007,166581,5.20565625,year
+Sri Lanka,2008,170000,5.3125,year
+Sri Lanka,2009,678213.159,21.19416122,year
+Sri Lanka,2010,345524.4148,10.79763796,year
+Sri Lanka,2011,320883.8163,10.02761926,year
+Sri Lanka,2012,437990.0129,13.6871879,year
+Sri Lanka,2013,737775.5031,23.05548447,year
+Sri Lanka,2014,742163.0516,23.19259536,year
+Sri Lanka,2015,715722.052,22.36631412,year
+Sri Lanka,2016,715284.375,22.35263672,year
+Sri Lanka,2017,716152.8422,22.37977632,year
+South Sudan,2010,0,0,year
+South Sudan,2011,0,0,year
+South Sudan,2012,0,0,year
+South Sudan,2013,0,0,year
+South Sudan,2014,0,0,year
+South Sudan,2015,0,0,year
+South Sudan,2016,0,0,year
+Spain,2000,16829000,525.90625,year
+Spain,2001,16829000,525.90625,year
+Spain,2002,16828000,525.875,year
+Spain,2003,16827000,525.84375,year
+Spain,2004,16826000,525.8125,year
+Spain,2005,14717000,459.90625,year
+Spain,2006,13399000,418.71875,year
+Spain,2007,9054000,282.9375,year
+Spain,2008,9054000,282.9375,year
+Spain,2009,9054000,282.9375,year
+Spain,2010,9054000,282.9375,year
+Spain,2011,9054000,282.9375,year
+Spain,2012,9054000,282.9375,year
+Spain,2013,9054000,282.9375,year
+Spain,2014,9053000,282.90625,year
+Spain,2015,9053000,282.90625,year
+Spain,2016,9053000,282.90625,year
+Spain,2017,9053000,282.90625,year
+Spain,2018,9053000,282.90625,year
+South Africa,2000,5900000,184.375,year
+South Africa,2001,5720000,178.75,year
+South Africa,2002,5580000,174.375,year
+South Africa,2003,3975000,124.21875,year
+South Africa,2004,3984000,124.5,year
+South Africa,2005,3987000,124.59375,year
+South Africa,2006,3990000,124.6875,year
+South Africa,2007,3995000,124.84375,year
+South Africa,2008,4009000,125.28125,year
 South Africa,2009,4014000,125.4375,year
+South Africa,2010,4016000,125.5,year
+South Africa,2011,4019000,125.59375,year
+South Africa,2012,4022000,125.6875,year
+South Africa,2013,4022000,125.6875,year
 South Africa,2014,4025000,125.78125,year
+South Africa,2015,4026000,125.8125,year
+South Africa,2016,4027000,125.84375,year
 South Africa,2017,4029000,125.90625,year
 South Africa,2018,4029000,125.90625,year
+Sub-Saharan Africa,2000,9228096.415,288.378013,year
+Sub-Saharan Africa,2001,8761124.225,273.785132,year
+Sub-Saharan Africa,2002,8819979.47,275.6243584,year
+Sub-Saharan Africa,2003,6835499.47,213.6093584,year
+Sub-Saharan Africa,2004,6523321.33,203.8537916,year
+Sub-Saharan Africa,2005,6531003.807,204.093869,year
+Sub-Saharan Africa,2006,6549786.385,204.6808245,year
+Sub-Saharan Africa,2007,6562191.018,205.0684693,year
+Sub-Saharan Africa,2008,6564718.071,205.1474397,year
+Sub-Saharan Africa,2009,6541643.445,204.4263577,year
+Sub-Saharan Africa,2010,6543646.922,204.4889663,year
+Sub-Saharan Africa,2011,6552323.491,204.7601091,year
+Sub-Saharan Africa,2012,6594618.311,206.0818222,year
+Sub-Saharan Africa,2013,6649395.859,207.7936206,year
+Sub-Saharan Africa,2014,6781275.859,211.9148706,year
+Sub-Saharan Africa,2015,6881983.553,215.061986,year
+Sub-Saharan Africa,2016,6892186.798,215.3808374,year
+Sub-Saharan Africa,2017,6894469.679,215.4521775,year
+Sub-Saharan Africa,2018,6936197.66,216.7561769,year
+Switzerland,2000,77785458.23,2430.79557,year
+Switzerland,2001,70683363.61,2208.855113,year
+Switzerland,2002,61623289.98,1925.727812,year
+Switzerland,2003,52511775.2,1640.992975,year
+Switzerland,2004,43541723.6,1360.678863,year
+Switzerland,2005,41477647.21,1296.176475,year
+Switzerland,2006,41477647.21,1296.176475,year
+Switzerland,2007,36819329.01,1150.604032,year
+Switzerland,2008,33440288.07,1045.009002,year
+Switzerland,2009,33440288.07,1045.009002,year
+Switzerland,2010,33439484.3,1044.983884,year
+Switzerland,2011,33439323.55,1044.978861,year
+Switzerland,2012,33439323.55,1044.978861,year
+Switzerland,2013,33439034.19,1044.969819,year
+Switzerland,2014,33436686.32,1044.896448,year
+Switzerland,2015,33436687.19,1044.896475,year
+Switzerland,2016,33437000,1044.90625,year
+Switzerland,2017,33437000,1044.90625,year
+Switzerland,2018,33437000,1044.90625,year
+Suriname,2000,256209.1083,8.006534634,year
+Suriname,2001,265050.557,8.282829907,year
+Suriname,2002,20518.59116,0.641205974,year
+Suriname,2003,20627.90361,0.644621988,year
+Suriname,2004,20512.16101,0.641005032,year
+Suriname,2005,31379.10525,0.980597039,year
+Suriname,2006,34364.01026,1.073875321,year
+Suriname,2007,39814.6825,1.244208828,year
+Suriname,2008,46694.32347,1.459197608,year
+Suriname,2009,55566.72972,1.736460304,year
+Suriname,2010,63382.52988,1.980704059,year
+Suriname,2011,70880.96002,2.215030001,year
+Suriname,2012,74372.91977,2.324153743,year
+Suriname,2013,33500.38002,1.046886876,year
+Suriname,2014,43000.38002,1.343761876,year
+Suriname,2015,43000.38002,1.343761876,year
+Suriname,2016,25370.21107,0.792819096,year
+Suriname,2017,30190.94,0.943466875,year
+Suriname,2018,44288.94015,1.38402938,year
+Sweden,2000,5961419.133,186.2943479,year
+Sweden,2001,5961419.133,186.2943479,year
+Sweden,2002,5961419.133,186.2943479,year
+Sweden,2003,5961386.982,186.2933432,year
+Sweden,2004,5961386.982,186.2933432,year
+Sweden,2005,5414181.684,169.1931776,year
+Sweden,2006,5095889.53,159.2465478,year
+Sweden,2007,4784027.521,149.50086,year
+Sweden,2008,4404648.994,137.6452811,year
+Sweden,2009,4042117.447,126.3161702,year
+Sweden,2010,4042117.447,126.3161702,year
+Sweden,2011,4042117.447,126.3161702,year
+Sweden,2012,4042117.447,126.3161702,year
+Sweden,2013,4042117.447,126.3161702,year
+Sweden,2014,4042117.447,126.3161702,year
+Sweden,2015,4042117.447,126.3161702,year
+Sweden,2016,4042117.447,126.3161702,year
+Sweden,2017,4042000,126.3125,year
+Sweden,2018,4042000,126.3125,year
+Syrian Arab Republic,2000,833000,26.03125,year
+Syrian Arab Republic,2001,833000,26.03125,year
+Syrian Arab Republic,2002,833000,26.03125,year
+Syrian Arab Republic,2003,833000,26.03125,year
+Syrian Arab Republic,2004,833000,26.03125,year
+Syrian Arab Republic,2005,833000,26.03125,year
+Syrian Arab Republic,2006,833000,26.03125,year
+Syrian Arab Republic,2007,833000,26.03125,year
+Syrian Arab Republic,2008,830000,25.9375,year
+Syrian Arab Republic,2009,830000,25.9375,year
+Syrian Arab Republic,2010,830000,25.9375,year
+Thailand,2000,2367000,73.96875,year
 Thailand,2001,2480000,77.5,year
+Thailand,2002,2500000,78.125,year
 Thailand,2003,2600000,81.25,year
 Thailand,2004,2700000,84.375,year
 Thailand,2005,2700000,84.375,year
@@ -1243,27 +2778,367 @@ Thailand,2007,2700000,84.375,year
 Thailand,2008,2700000,84.375,year
 Thailand,2009,2700000,84.375,year
 Thailand,2010,3200000,100,year
+Thailand,2011,4900000,153.125,year
+Thailand,2012,4900000,153.125,year
+Thailand,2013,4900000,153.125,year
+Thailand,2014,4900000,153.125,year
+Thailand,2015,4900000,153.125,year
+Thailand,2016,4900000,153.125,year
+Thailand,2017,4950000,154.6875,year
+Thailand,2018,4950000,154.6875,year
+Taiwan Province of China,2000,13560000,423.75,year
+Taiwan Province of China,2001,13560000,423.75,year
+Taiwan Province of China,2002,13560000,423.75,year
+Taiwan Province of China,2003,13620000,425.625,year
+Taiwan Province of China,2004,13610000,425.3125,year
+Taiwan Province of China,2005,13610000,425.3125,year
+Taiwan Province of China,2006,13610000,425.3125,year
+Taiwan Province of China,2007,13610000,425.3125,year
+Taiwan Province of China,2008,13620000,425.625,year
+Taiwan Province of China,2009,13620000,425.625,year
+Taiwan Province of China,2010,13620000,425.625,year
+Taiwan Province of China,2011,13580000,424.375,year
+Taiwan Province of China,2012,13620000,425.625,year
+Taiwan Province of China,2013,13620000,425.625,year
+Taiwan Province of China,2014,13620000,425.625,year
+Taiwan Province of China,2015,13620000,425.625,year
+Taiwan Province of China,2016,13620000,425.625,year
+Taiwan Province of China,2017,13620000,425.625,year
+Taiwan Province of China,2018,13620000,425.625,year
+"Timor-Leste, Dem. Rep. of",2002,0,0,year
+"Timor-Leste, Dem. Rep. of",2003,0,0,year
+"Timor-Leste, Dem. Rep. of",2004,0,0,year
+"Timor-Leste, Dem. Rep. of",2005,0,0,year
+"Timor-Leste, Dem. Rep. of",2006,0,0,year
+"Timor-Leste, Dem. Rep. of",2007,0,0,year
+"Timor-Leste, Dem. Rep. of",2008,0,0,year
+"Timor-Leste, Dem. Rep. of",2009,0,0,year
+"Timor-Leste, Dem. Rep. of",2010,0,0,year
+"Timor-Leste, Dem. Rep. of",2011,0,0,year
+"Timor-Leste, Dem. Rep. of",2012,0,0,year
+"Timor-Leste, Dem. Rep. of",2013,0,0,year
+"Timor-Leste, Dem. Rep. of",2014,0,0,year
+"Timor-Leste, Dem. Rep. of",2015,0,0,year
+"Timor-Leste, Dem. Rep. of",2016,0,0,year
+"Timor-Leste, Dem. Rep. of",2017,0,0,year
+"Timor-Leste, Dem. Rep. of",2018,0,0,year
+Tajikistan,2000,5180,0.161875,year
+Tajikistan,2001,6240,0.195,year
+Tajikistan,2002,0,0,year
+Tajikistan,2003,13700,0.428125,year
+Tajikistan,2004,33230,1.0384375,year
+Tajikistan,2005,40340,1.260625,year
+Tajikistan,2006,45160,1.41125,year
+Tajikistan,2007,54130,1.6915625,year
+Tajikistan,2008,68600,2.14375,year
+Tajikistan,2009,73910,2.3096875,year
+Tajikistan,2010,56150,1.7546875,year
 Tajikistan,2011,150000,4.6875,year
 Tajikistan,2012,200000,6.25,year
+Tajikistan,2013,166530,5.2040625,year
+Tajikistan,2014,277946,8.6858125,year
+Tajikistan,2015,404669,12.64590625,year
+Tajikistan,2016,469029,14.65715625,year
+Tajikistan,2017,501491.13,15.67159781,year
+Tajikistan,2018,715700,22.365625,year
 Tanzania,2000,75000,2.34375,year
 Tanzania,2001,75000,2.34375,year
 Tanzania,2002,75000,2.34375,year
+Tanzania,2003,0,0,year
+Tanzania,2004,0,0,year
+Tanzania,2005,0,0,year
+Tanzania,2006,0,0,year
+Tanzania,2007,0,0,year
+Tanzania,2008,0,0,year
+Tanzania,2009,0,0,year
+Tanzania,2010,0,0,year
+Tanzania,2011,0,0,year
+Tanzania,2012,0,0,year
+Tanzania,2013,0,0,year
+Tanzania,2014,0,0,year
+Turkey,2000,3738711.078,116.8347212,year
+Turkey,2001,3732827.495,116.6508592,year
+Turkey,2002,3732827.495,116.6508592,year
+Turkey,2003,3732827.495,116.6508592,year
+Turkey,2004,3732827.495,116.6508592,year
+Turkey,2005,3732827.495,116.6508592,year
+Turkey,2006,3732827.495,116.6508592,year
+Turkey,2007,3732819.546,116.6506108,year
+Turkey,2008,3732819.546,116.6506108,year
+Turkey,2009,3732819.546,116.6506108,year
+Turkey,2010,3732821.065,116.6506583,year
+Turkey,2011,6280126.602,196.2539563,year
+Turkey,2012,11562700.94,361.3344044,year
+Turkey,2013,16709920.59,522.1850184,year
+Turkey,2014,17011213.59,531.6004247,year
+Turkey,2015,16574340.32,517.9481349,year
+Turkey,2016,12122633.69,378.8323028,year
+Turkey,2017,18158096.32,567.4405101,year
+Turkey,2018,15695175.43,490.4742322,year
+Togo,2000,0,0,year
+Togo,2001,0,0,year
+Togo,2002,0,0,year
+Togo,2003,0,0,year
+Togo,2004,0,0,year
+Togo,2005,0,0,year
+Togo,2006,0,0,year
+Togo,2007,0,0,year
+Togo,2008,0,0,year
+Togo,2009,0,0,year
+Togo,2010,0,0,year
+Togo,2011,0,0,year
+Togo,2012,0,0,year
+Togo,2013,0,0,year
+Togo,2014,0,0,year
+Togo,2015,0,0,year
+Togo,2016,0,0,year
+Togo,2017,0,0,year
+Togo,2018,0,0,year
+Trinidad and Tobago,2000,60130,1.8790625,year
+Trinidad and Tobago,2001,60700,1.896875,year
+Trinidad and Tobago,2002,60910,1.9034375,year
+Trinidad and Tobago,2003,61152.17,1.911005313,year
+Trinidad and Tobago,2004,61206,1.9126875,year
+Trinidad and Tobago,2005,61237,1.91365625,year
+Trinidad and Tobago,2006,61270,1.9146875,year
+Trinidad and Tobago,2007,61266,1.9145625,year
+Trinidad and Tobago,2008,61320,1.91625,year
+Trinidad and Tobago,2009,61500,1.921875,year
+Trinidad and Tobago,2010,61702,1.9281875,year
+Trinidad and Tobago,2011,61740,1.929375,year
+Trinidad and Tobago,2012,61752,1.92975,year
+Trinidad and Tobago,2013,61774,1.9304375,year
+Trinidad and Tobago,2014,61808,1.9315,year
+Trinidad and Tobago,2015,62059,1.93934375,year
+Trinidad and Tobago,2016,62059,1.93934375,year
+Trinidad and Tobago,2017,62153.767,1.942305219,year
+Trinidad and Tobago,2018,62279.456,1.946233,year
 Tunisia,2000,220000,6.875,year
+Tunisia,2001,218251,6.82034375,year
+Tunisia,2002,217769.838,6.805307438,year
+Tunisia,2003,217809.426,6.806544563,year
+Tunisia,2004,217809.426,6.806544563,year
+Tunisia,2005,217809,6.80653125,year
+Tunisia,2006,217809,6.80653125,year
+Tunisia,2007,217800,6.80625,year
+Tunisia,2008,218000,6.8125,year
+Tunisia,2009,218000,6.8125,year
 Tunisia,2010,217000,6.78125,year
+Tunisia,2011,216692.88,6.7716525,year
 Tunisia,2012,216700,6.771875,year
+Tunisia,2013,218000,6.8125,year
+Tunisia,2014,218000,6.8125,year
+Tunisia,2015,218000,6.8125,year
+Tunisia,2016,218000,6.8125,year
+Tunisia,2017,218000,6.8125,year
+Tunisia,2018,218000,6.8125,year
+United Arab Emirates,2000,397000,12.40625,year
+United Arab Emirates,2001,397000,12.40625,year
+United Arab Emirates,2002,397000,12.40625,year
+United Arab Emirates,2003,0,0,year
+United Arab Emirates,2004,0,0,year
+United Arab Emirates,2005,0,0,year
+United Arab Emirates,2006,0,0,year
+United Arab Emirates,2007,0,0,year
+United Arab Emirates,2008,0,0,year
+United Arab Emirates,2009,0,0,year
+United Arab Emirates,2010,0,0,year
+United Arab Emirates,2011,0,0,year
+United Arab Emirates,2012,0,0,year
+United Arab Emirates,2013,0,0,year
+United Arab Emirates,2014,0,0,year
+United Arab Emirates,2015,240997.8819,7.531183808,year
+United Arab Emirates,2016,238409.1105,7.450284704,year
+United Arab Emirates,2017,245071.0826,7.658471333,year
+United Arab Emirates,2018,240986.2287,7.530819647,year
+Ukraine,2000,453600,14.175,year
+Ukraine,2001,483100,15.096875,year
 Ukraine,2002,750000,23.4375,year
+Ukraine,2003,630000,19.6875,year
 Ukraine,2004,520000,16.25,year
 Ukraine,2005,780000,24.375,year
 Ukraine,2006,810000,25.3125,year
+Ukraine,2007,837000,26.15625,year
 Ukraine,2008,854000,26.6875,year
+Ukraine,2009,868000,27.125,year
+Ukraine,2010,885000,27.65625,year
+Ukraine,2011,901000,28.15625,year
+Ukraine,2012,1140000,35.625,year
 Ukraine,2013,1360000,42.5,year
+Ukraine,2014,760000,23.75,year
 Ukraine,2015,880000,27.5,year
 Ukraine,2016,820000,25.625,year
 Ukraine,2017,820000,25.625,year
 Ukraine,2018,780000,24.375,year
+United Kingdom,2000,15673475.99,489.7961246,year
+United Kingdom,2001,11421630.33,356.9259478,year
+United Kingdom,2002,10091336.83,315.3542759,year
+United Kingdom,2003,10070363.98,314.6988743,year
+United Kingdom,2004,10039046.53,313.7202039,year
+United Kingdom,2005,9992650.727,312.2703352,year
+United Kingdom,2006,9974748.733,311.7108979,year
+United Kingdom,2007,9975112.557,311.7222674,year
+United Kingdom,2008,9975110.06,311.7221894,year
+United Kingdom,2009,9975000,311.71875,year
+United Kingdom,2010,9975000,311.71875,year
+United Kingdom,2011,9975000,311.71875,year
+United Kingdom,2012,9975000,311.71875,year
+United Kingdom,2013,9975000,311.71875,year
+United Kingdom,2014,9975000,311.71875,year
+United Kingdom,2015,9976000,311.75,year
+United Kingdom,2016,9976042.684,311.7513339,year
+United Kingdom,2017,9976042.279,311.7513212,year
+United Kingdom,2018,9976042.279,311.7513212,year
+"Venezuela, Republica Bolivariana de",2011,11760000,367.5,year
+"Venezuela, Republica Bolivariana de",2012,11760000,367.5,year
+"Venezuela, Republica Bolivariana de",2013,11820000,369.375,year
+"Venezuela, Republica Bolivariana de",2014,11607210,362.7253125,year
+"Venezuela, Republica Bolivariana de",2015,8774570,274.2053125,year
+"Venezuela, Republica Bolivariana de",2000,10240000,320,year
+"Venezuela, Republica Bolivariana de",2001,10940000,341.875,year
+"Venezuela, Republica Bolivariana de",2002,10560000,330,year
+"Venezuela, Republica Bolivariana de",2003,11470000,358.4375,year
+"Venezuela, Republica Bolivariana de",2004,11490000,359.0625,year
+"Venezuela, Republica Bolivariana de",2005,11470000,358.4375,year
+"Venezuela, Republica Bolivariana de",2006,11480000,358.75,year
+"Venezuela, Republica Bolivariana de",2007,11470000,358.4375,year
+"Venezuela, Republica Bolivariana de",2008,11460000,358.125,year
+"Venezuela, Republica Bolivariana de",2009,11600000,362.5,year
+"Venezuela, Republica Bolivariana de",2010,11760000,367.5,year
+"Venezuela, Republica Bolivariana de",2016,6008800,187.775,year
+"Venezuela, Republica Bolivariana de",2017,5213800,162.93125,year
+Uzbekistan,2013,6990000,218.4375,year
+Uzbekistan,2014,8830000,275.9375,year
+Uzbekistan,2015,10020000,313.125,year
+Uzbekistan,2016,10570000,330.3125,year
+Uzbekistan,2017,10820000,338.125,year
+Uzbekistan,2018,11420000,356.875,year
+United States of America,2000,261611000,8175.34375,year
+United States of America,2001,262000000,8187.5,year
+United States of America,2002,262000000,8187.5,year
+United States of America,2003,261546469.1,8173.327158,year
+United States of America,2004,261586313.5,8174.572296,year
+United States of America,2005,261550537.7,8173.454304,year
+United States of America,2006,261498899.3,8171.840604,year
+United States of America,2007,261498899.3,8171.840604,year
+United States of America,2008,261498899.3,8171.840604,year
+United States of America,2009,261498899,8171.840594,year
+United States of America,2010,261498899,8171.840594,year
+United States of America,2011,261498899,8171.840594,year
+United States of America,2012,261498926.2,8171.841445,year
+United States of America,2013,261498926.2,8171.841445,year
+United States of America,2014,261498926.2,8171.841445,year
+United States of America,2015,261498926.2,8171.841445,year
+United States of America,2016,261498926.2,8171.841445,year
+United States of America,2017,261498926.2,8171.841445,year
+United States of America,2018,261498926.2,8171.841445,year
+Vietnam,2000,0,0,year
+Vietnam,2001,0,0,year
+Vietnam,2002,0,0,year
+Vietnam,2003,0,0,year
+Vietnam,2004,0,0,year
+Vietnam,2005,0,0,year
+Vietnam,2006,0,0,year
+Vietnam,2007,0,0,year
+Vietnam,2008,0,0,year
+Vietnam,2009,0,0,year
+Vietnam,2010,0,0,year
+Vietnam,2011,0,0,year
+Vietnam,2012,0,0,year
+Vietnam,2013,0,0,year
+Vietnam,2014,0,0,year
+Vietnam,2015,0,0,year
+Vietnam,2016,0,0,year
+Vietnam,2017,0,0,year
+Vietnam,2018,0,0,year
 Uruguay,2000,1081000,33.78125,year
 Uruguay,2001,8000,0.25,year
 Uruguay,2002,8400,0.2625,year
+Uruguay,2003,8399.510017,0.262484688,year
+Uruguay,2004,8312.570037,0.259767814,year
+Uruguay,2005,8425.489977,0.263296562,year
+Uruguay,2006,8420.79,0.263149688,year
+Uruguay,2007,8505.440019,0.265795001,year
+Uruguay,2008,8491.70002,0.265365626,year
+Uruguay,2009,8487.380014,0.265230625,year
+Uruguay,2010,8458.720003,0.264335,year
+Uruguay,2011,8444.359999,0.26388625,year
+Uruguay,2012,8263.200281,0.258225009,year
+Uruguay,2013,8245.949992,0.257685937,year
+Uruguay,2014,8226.390002,0.257074688,year
+Uruguay,2015,3419.430029,0.106857188,year
+Uruguay,2016,3299.774213,0.103117944,year
+Uruguay,2017,3314.130003,0.103566563,year
+Uruguay,2018,3308.600021,0.103393751,year
+West Bank and Gaza,2006,0,0,year
+West Bank and Gaza,2007,0,0,year
+West Bank and Gaza,2008,0,0,year
+West Bank and Gaza,2009,0,0,year
+West Bank and Gaza,2010,0,0,year
+West Bank and Gaza,2011,0,0,year
+West Bank and Gaza,2012,0,0,year
+West Bank and Gaza,2013,0,0,year
+West Bank and Gaza,2014,0,0,year
+West Bank and Gaza,2015,0,0,year
+West Bank and Gaza,2016,0,0,year
+West Bank and Gaza,2017,0,0,year
+West African Economic and Monetary Union (WAEMU),2000,1058019,33.06309375,year
+West African Economic and Monetary Union (WAEMU),2001,1116863,34.90196875,year
+West African Economic and Monetary Union (WAEMU),2002,1172233,36.63228125,year
+West African Economic and Monetary Union (WAEMU),2003,1172260,36.633125,year
+West African Economic and Monetary Union (WAEMU),2004,1172988,36.655875,year
+West African Economic and Monetary Union (WAEMU),2005,1172988,36.655875,year
+West African Economic and Monetary Union (WAEMU),2006,1172988,36.655875,year
+West African Economic and Monetary Union (WAEMU),2007,1172988,36.655875,year
+West African Economic and Monetary Union (WAEMU),2008,1172988,36.655875,year
+West African Economic and Monetary Union (WAEMU),2009,1172988,36.655875,year
+West African Economic and Monetary Union (WAEMU),2010,1173001.652,36.65630164,year
+West African Economic and Monetary Union (WAEMU),2011,1173001.652,36.65630164,year
+West African Economic and Monetary Union (WAEMU),2012,1173001.652,36.65630164,year
+West African Economic and Monetary Union (WAEMU),2013,1173001.652,36.65630164,year
+West African Economic and Monetary Union (WAEMU),2014,1173001.652,36.65630164,year
+West African Economic and Monetary Union (WAEMU),2015,1174234.763,36.69483633,year
+West African Economic and Monetary Union (WAEMU),2016,1174234.763,36.69483633,year
+West African Economic and Monetary Union (WAEMU),2017,1174234.763,36.69483633,year
+West African Economic and Monetary Union (WAEMU),2018,1174234.763,36.69483633,year
+World,2000,1067814167,33369.1927,year
+World,2001,1058838450,33088.70158,year
+World,2002,1046956240,32717.38251,year
+World,2003,1029024660,32157.02063,year
+World,2004,1012344443,31635.76385,year
+World,2005,992949723.1,31029.67885,year
+World,2006,981212979.6,30662.90561,year
+World,2007,964993171.1,30156.0366,year
+World,2008,964604356.6,30143.88614,year
+World,2009,981466145.2,30670.81704,year
+World,2010,991784601.9,30993.26881,year
+World,2011,1003554722,31361.08506,year
+World,2012,1018831211,31838.47534,year
+World,2013,1030005657,32187.67678,year
+World,2014,1037538239,32423.06996,year
+World,2015,1061494903,33171.71572,year
+World,2016,1079853280,33745.41501,year
+World,2017,1092735771,34147.99284,year
+World,2018,1100016204,34375.50639,year
+Western Hemisphere,2000,18607693.31,581.490416,year
+Western Hemisphere,2001,17211640.91,537.8637784,year
+Western Hemisphere,2002,16469297,514.6655313,year
+Western Hemisphere,2003,17328892.48,541.5278901,year
+Western Hemisphere,2004,18977713.23,593.0535384,year
+Western Hemisphere,2005,18764024.7,586.3757718,year
+Western Hemisphere,2006,18636650.06,582.3953144,year
+Western Hemisphere,2007,18656650.89,583.0203404,year
+Western Hemisphere,2008,18755034.36,586.0948238,year
+Western Hemisphere,2009,18978977.76,593.093055,year
+Western Hemisphere,2010,19313496.88,603.5467774,year
+Western Hemisphere,2011,23064505.06,720.7657833,year
+Western Hemisphere,2012,24986113.28,780.81604,year
+Western Hemisphere,2013,25022148.14,781.9421295,year
+Western Hemisphere,2014,24335465.78,760.4833055,year
+Western Hemisphere,2015,21062862.18,658.214443,year
+Western Hemisphere,2016,18163329.88,567.6040588,year
+Western Hemisphere,2017,17450162.05,545.317564,year
+Western Hemisphere,2018,17335161.79,541.7238061,year
 "Yemen, Republic of",2000,50000,1.5625,year
 "Yemen, Republic of",2001,50000,1.5625,year
 "Yemen, Republic of",2002,50000,1.5625,year
@@ -1278,6 +3153,41 @@ Uruguay,2002,8400,0.2625,year
 "Yemen, Republic of",2011,50000,1.5625,year
 "Yemen, Republic of",2012,50000,1.5625,year
 "Yemen, Republic of",2013,50000,1.5625,year
+Zimbabwe,2005,0,0,year
+Zimbabwe,2006,0,0,year
+Zimbabwe,2007,22404.63291,0.700144778,year
+Zimbabwe,2008,7324.665812,0.228895807,year
+Zimbabwe,2009,0,0,year
+Zimbabwe,2010,0,0,year
+Zimbabwe,2011,688.164,0.021505125,year
+Zimbabwe,2012,688.164,0.021505125,year
+Zimbabwe,2013,403.534,0.012610438,year
+Zimbabwe,2014,403.534,0.012610438,year
+Zimbabwe,2015,15506,0.4845625,year
+Zimbabwe,2016,403,0.01259375,year
 Zimbabwe,2000,467000,14.59375,year
+Zimbabwe,2001,198000,6.1875,year
 Zimbabwe,2002,141000,4.40625,year
 Zimbabwe,2003,122000,3.8125,year
+Zimbabwe,2004,25300,0.790625,year
+Zimbabwe,2017,403,0.01259375,year
+Zimbabwe,2018,403,0.01259375,year
+Zambia,2000,0,0,year
+Zambia,2001,0,0,year
+Zambia,2002,0,0,year
+Zambia,2003,0,0,year
+Zambia,2004,0,0,year
+Zambia,2005,0,0,year
+Zambia,2006,0,0,year
+Zambia,2007,0,0,year
+Zambia,2008,0,0,year
+Zambia,2009,0,0,year
+Zambia,2010,0,0,year
+Zambia,2011,0,0,year
+Zambia,2012,0,0,year
+Zambia,2013,0,0,year
+Zambia,2014,0,0,year
+Zambia,2015,0,0,year
+Zambia,2016,0,0,year
+Zambia,2017,0,0,year
+Zambia,2018,0,0,year

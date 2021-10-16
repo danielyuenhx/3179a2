@@ -35,10 +35,6 @@
         vegaEmbed("#donut-chart_4", vg_donut).then(function(result) { 
         }).catch(console.error);
 
-        // var vg_bar = "waterfall-chart.vg.json"; 
-        // vegaEmbed("#bar-chart", vg_bar).then(function(result) { 
-        // }).catch(console.error);
-
         var vg_line = "msia-line-chart.vg.json"; 
         vegaEmbed("#line-chart", vg_line).then(function(result) { 
         }).catch(console.error);
@@ -136,9 +132,14 @@
             margin-top: 30px;
         }
         .footer {
-            background-color: #dbdbdb;
+            background-color: #2f2f2f;
             padding: 10px;
             font-size: 0.75rem;
+            color: white;
+            margin-top: 30px;
+        }
+        .footer a {
+            color: white;
         }
         @media (max-width: 1250px) {
             .page{
@@ -182,7 +183,7 @@
         <div class="pure-g">
             <div class="pure-u-3-24"></div>
             <div class="pure-u-1-2">
-                <div class="subtext">
+                <div class="subtext right">
                     <p><b>Gold has always been an important factor</b> in world economics. Although
                         it is no longer used as a primary form of currency in developed nations, gold 
                         still has a <b>significant impact on a country's currency.</b> Gold as a commodity 
@@ -194,8 +195,8 @@
                 </div>
             </div>
             <div class="pure-u-1-4">
-                <div class="hint">
-                <b>How to View?</b>
+                <div class="hint right">
+                <b>Viewing Tips</b>
                 <p>Click on the legend to filter out values. Multi-selecting compares the values of 
                     different currencies.
                 </p>
@@ -288,24 +289,22 @@
             </div>
             <div class="pure-u-3-24"></div>
 
-            
             <div class="pure-u-3-24"></div>
             <div class="pure-u-9-24">
                 <div class="subtext left">
-                    <p>The charts above show the <b>top ten largest gold reserves</b> in the years 2000, 2005
-                        and 2010. </p>
-                    <p>The <b>United States</b> has consistently been one of the <b>largest gold reserves</b> in 
-                        the world. Throughout 2005 to 2015, it has maintained its spot as the largest gold reserve 
-                        and is continues to be the <b>largest</b> gold reserve worldwide. </p>
+                    <p>So what about <b>Malaysia</b>?</p>
+                    <p>Gold reserves in Malaysia have been <b>increasing from the 1960s up till late 1990s.</b>
+                        However, it decreased from 1998 to 1999. From then, it has been relatively 
+                        constant with little relative increase.
+                    </p>
                 </div>
             </div>
             <div class="pure-u-9-24">
                 <div class="subtext right">
-                <p><b>European countries</b> like Germany, France and Italy also have consistently large gold 
-                    reserves throughout 2005 to 2015 behind the United States. 
+                <p>From Bank Negara Malaysia's Statement of Assets, Malaysia's assets' value is 
+                    <b>largely made up by gold</b>. 
                 </p>
-                <p><b>China's</b> gold reserve has been steadily growing and is throughout the years and is 
-                    becoming as large as other European countries.
+                <p> 
                 </p>
                 </div>
             </div>
@@ -313,15 +312,15 @@
 
             <div class="pure-u-3-24"></div>
             <div class="pure-u-3-4">
-                <div class="footer">
-                    Visualisation by Daniel Yuen, FIT3179 S2 2021<br>
+                <div class="footer" style="text-align: center;">
+                    <h3>Visualisation by Daniel Yuen, FIT3179 S2 2021</h3>
                     Datasets obtained from:<br>
                     <a href="https://www.kaggle.com/odins0n/monthly-gold-prices">
                         Monthly Gold Prices (1979-2021) | Kaggle
-                    </a><br>
+                    </a> &nbsp◦&nbsp
                     <a href="https://data.worldbank.org/indicator/FI.RES.TOTL.CD?end=2020&start=2020&view=map&year=2020">
                         Country Gold Reserves Annual, quarterly, & monthly | Kaggle
-                    </a><br>
+                    </a> &nbsp◦&nbsp
                     <a href="https://www.data.gov.my/data/dataset/bank-negara-malaysia-statement-of-assets/resource/16f54859-bf03-42a2-aea7-610fab640f15">
                         Bank Negara Malaysia: Statement of Assets
                     </a>

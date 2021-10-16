@@ -26,7 +26,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/gold_reserves_tonnes_clean.csv"
+        "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/csv/gold_reserves_tonnes_clean.csv"
       },
       "transform": [{
           "lookup": "Country",
@@ -90,7 +90,7 @@
             {
               "lookup": "Country",
               "from": {
-                "data": {"url": "https://raw.githubusercontent.com/daneliell/3179a2/main/latlong.csv"},
+                "data": {"url": "https://raw.githubusercontent.com/daneliell/3179a2/main/csv/latlong.csv"},
                 "key": "Country",
                 "fields": ["Latitude", "Longitude"]
               }

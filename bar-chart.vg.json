@@ -4,7 +4,7 @@
     "height": 200,
     "background": "#f9f7f1",
     "data": {
-        "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/msia_assets.csv"
+        "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/csv/msia_assets.csv"
     },
     "transform": [{
         "filter": "datum.Asset != 'Total Assets'"

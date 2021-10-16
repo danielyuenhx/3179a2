@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/currency_change_everything_pivoted.csv"
+    "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/csv/currency_change_everything_pivoted.csv"
   },
   "background": "#f9f7f1",
   "transform": [

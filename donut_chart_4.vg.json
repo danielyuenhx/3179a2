@@ -3,13 +3,13 @@
   "data": {
     "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/csv/top_10_reserves.csv"
   },
-  "title": {"text": "2015", "orient": "bottom"},
+  "title": {"text": "2018", "orient": "bottom"},
   "width": 180,
   "height": 200,
   "background": "#f9f7f1",
   "transform": [
       {"calculate": "datum.Ounces", "as": "Reserves in Billions USD"},
-      {"filter": "datum.Year == 2015"}
+      {"filter": "datum.Year == 2018"}
   ],
   "mark": {"type": "arc", "innerRadius": 15, "stroke": "#fff"},
   "encoding": {

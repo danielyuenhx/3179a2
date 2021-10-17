@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 200,
+  "background": "#f9f7f1",
+  "data": {
+      "url": "https://raw.githubusercontent.com/daneliell/3179a2/main/csv/msia_assets.csv"
+  },
+  "mark": {"type": "area"},
+  "encoding": {
+    "x": {
+      "field": "Year", 
+      "type": "temporal",
+      "axis": {"grid": false}
+      },
+    "y": {
+      "field": "Value", 
+      "type": "quantitative",
+      "aggregate": "sum",
+      "axis": {"title": "Value (RM)", "grid": false}
+    },
+    "color": {
+        "field": "Asset",
+        "type": "nominal",
+        "sort": ["Gold", "Holdings", "Deposits", "Loans", "Properties", "Other Assets"],
+        "scale": {"range": ["#FFD700", "#83bcb6", "#f58518", "#4c78a8", "#4c78a8", "#439894"]}
+      },
+      "tooltip": [
+        {"field": "Asset", "type": "nominal"},
+        {"field": "Year", "type": "temporal"},
+        {"field": "Value", "type": "quantitative", "format": "0.2f"}
+      ]
+    },
+    "config": {
+      "view": {
+         "stroke": "transparent"
+      }
+    }
+}

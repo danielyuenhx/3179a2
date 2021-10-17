@@ -74,8 +74,8 @@
             },
             "tooltip": [
               {"field": "Country", "type": "nominal", "title": "Country"},
-              {"field": "Gold Reserves (tonnes)", "type": "quantitative", "format": "0.2f"},
-              {"field": "Year", "type": "nominal"}
+              {"field": "Year", "type": "nominal"},
+              {"field": "Gold Reserves (tonnes)", "type": "quantitative", "format": "0.2f"}
             ]
           }
         },
@@ -109,8 +109,8 @@
             },
             "tooltip": [
               {"field": "Country", "type": "nominal", "title": "Country"},
-              {"field": "Gold Reserves (tonnes)", "type": "quantitative", "format": "0.2f"},
-              {"field": "Year", "type": "nominal"}
+              {"field": "Year", "type": "nominal"},
+              {"field": "Gold Reserves (tonnes)", "type": "quantitative", "format": "0.2f"}
             ]
           }
         }

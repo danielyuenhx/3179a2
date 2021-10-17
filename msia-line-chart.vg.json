@@ -15,7 +15,7 @@
           "x": {"field": "Year", "type": "temporal",
             "axis": {"grid": false}},
           "y": {"field": "Tonnes", "type": "quantitative", 
-            "axis": {"title": "Gold (tonnes)", "grid": false}},
+            "axis": {"title": "Gold Reserve (tonnes)", "grid": false}},
           "color": {
               "type": "nominal",
               "field": "symbol", 
@@ -76,13 +76,60 @@
                   "align": "left",
                   "dx": 5,
                   "dy": 13
+                },
+                "encoding": {
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 0
+                    },
+                    "value": 1
+                  }
                 }
               },
               {
                 "mark": {"type": "text", "align": "left", "dx": 5, "dy": 13},
                 "encoding": {
-                  "color": {"type": "nominal", "field": "symbol", "legend": null,
-                  "scale": {"range": ["black"]}}
+                  "color": {"type": "nominal", "field": "symbol"},
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 0
+                    },
+                    "value": 1
+                  }
+                }
+              },
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "right",
+                  "dx": -5,
+                  "dy": 13
+                },
+                "encoding": {
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 1
+                    },
+                    "value": 0
+                  }
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "right", "dx": -5, "dy": 13},
+                "encoding": {
+                  "color": {"type": "nominal", "field": "symbol"},
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 1
+                    },
+                    "value": 0
+                  }
                 }
               }
             ]
@@ -101,13 +148,72 @@
                   "strokeWidth": 2,
                   "align": "left",
                   "dx": 5,
-                  "dy": 0
+                  "dy": 0,
+                  "clip": false
+                },
+                "encoding": {
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 0
+                    },
+                    "value": 1
+                  }
                 }
               },
               {
-                "mark": {"type": "text", "align": "left", "dx": 5, "dy": 0},
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": 0, "clip": false},
                 "encoding": {
-                  "color": {"type": "nominal", "field": "symbol", "legend": null}
+                  "color": {"type": "nominal", "field": "symbol"},
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 0
+                    },
+                    "value": 1
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "encoding": {
+              "text": {"type": "temporal", "field": "Year"},
+              "x": {"type": "temporal", "field": "Year"},
+              "y": {"type": "quantitative", "field": "Tonnes"}
+            },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "right",
+                  "dx": -5,
+                  "dy": 0,
+                  "clip": false
+                },
+                "encoding": {
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 1
+                    },
+                    "value": 0
+                  }
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "right", "dx": -5, "dy": 0, "clip": false},
+                "encoding": {
+                  "color": {"type": "nominal", "field": "symbol"},
+                  "opacity": {
+                    "condition": {
+                      "test": "datum.Year > 1167609600000",
+                      "value": 1
+                    },
+                    "value": 0
+                  }
                 }
               }
             ]

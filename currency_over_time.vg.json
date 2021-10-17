@@ -33,71 +33,88 @@
               "labelFontSize": 11,
               "columns": 8
             }},
-            "opacity": { "condition": {"param": "currency_highlight", "value": 1.2}, "value": 0.2 }
+            "opacity": {"condition": {"param": "currency_highlight", "value": 1.2}, "value": 0.2 }
           },
           "layer": [
             {
               "mark": "line",
-              "params": [
-                { 
-                  "name": "currency_highlight", 
-                  "select": {"type": "point", "fields": ["Currency"]}, 
-                  "bind": "legend" 
-                }
-              ]
+            "params": [
+              { 
+                "name": "currency_highlight", 
+                "select": {"type": "point", "fields": ["Currency"]}, 
+                "bind": "legend" 
+              }]
             },
             {
-              "params": [{
-                "name": "label",
-                "select": {
-                  "type": "point",
-                  "encodings": ["x"],
-                  "nearest": true,
-                  "on": "mouseover",
-                  "clear": "mouseout"
-                }
-              }],
+              "transform": [{"filter": {"param": "hover", "empty": false}}], 
               "mark": "point",
               "encoding": {
-                "opacity": {
-                  "value": 0
-                }
-              }
+              "opacity": {"condition": {"param": "currency_highlight", "value": 1.2}, "value": 0 }}
             }
           ]
         },
         {
-          "transform": [{"filter": {"param": "label", "empty": false}}],
-          "layer": [
-            {
-              "mark": {"type": "rule", "color": "gray"}
+          "transform": [{"pivot": "Currency", "value": "Change", "groupby": ["Date"]}],
+          "mark": {"type": "rule", "color": "#2f2f2f"},
+          "encoding": {
+            "opacity": {
+              "condition": {"value": 0.75, "param": "hover", "empty": false},
+              "value": 0
             },
-            {
-              "encoding": {
-                "text": {"type": "quantitative", "field": "Price Change (%)", "format": "0.3f"},
-                "x": {"type": "temporal", "field": "Date"},
-                "y": {"type": "quantitative", "field": "Price Change (%)"}
-              },
-              "layer": [
-                {
-                  "mark": {
-                    "type": "text", 
-                    "align": "left", 
-                    "dx": 5, 
-                    "dy": -15,
-                    "fontSize": 15
-                  },
-                  "encoding": {
-                    "color": {"type": "nominal", "field": "Currency"},
-                    "opacity": {
-                      "condition": {"param": "currency_highlight", "value": 1},
-                      "value": 0
-                    }
-                  }
-                }
-              ]
+            "tooltip": [
+              {"field": "Australian dollar", "type": "nominal", "format": "0.2f"},
+              {"field": "Canadian dollar", "type": "nominal", "format": "0.2f"},
+              {"field": "Chinese renmimbi", "type": "nominal", "format": "0.2f"},
+              {"field": "Euro", "type": "nominal", "format": "0.2f"},
+              {"field": "Indian rupee", "type": "nominal", "format": "0.2f"},
+              {"field": "Japanese yen", "type": "nominal", "format": "0.2f"},
+              {"field": "Pound sterling", "type": "nominal", "format": "0.2f"},
+              {"field": "South African rand", "type": "nominal", "format": "0.2f"},
+              {"field": "Swiss franc", "type": "nominal", "format": "0.2f"},
+              {"field": "US dollar", "type": "nominal", "format": "0.2f"}
+            ]
+          },
+          "params": [{
+            "name": "hover",
+            "select": {
+              "type": "point",
+              "fields": ["Date"],
+              "nearest": true,
+              "on": "mouseover",
+              "clear": "mouseout"
             }
-          ]
+          },
+          {
+            "name": "index",
+            "select": {
+              "type": "point",
+              "encodings": ["x"],
+              "on": "mousemove",
+              "clear": "mouseout",
+              "nearest": true
+            }
+          }]
+        },
+        {
+          "transform": [
+            {"filter": {
+              "and": ["index.Date", {"param": "index"}]
+            }}
+          ],
+          "mark": {"type": "rule", "opacity": 0}
+        },
+        {
+          "transform": [
+            {"filter": {
+              "and": ["index.Date", {"param": "index"}]
+            }}
+          ],
+          "mark": "text",
+          "encoding": {
+            "color": {"value": "#2f2f2f"},
+            "y": {"value": 10},
+            "text": {"field": "Date", "type": "temporal"}
+          }
         }
       ]
     },
@@ -118,5 +135,6 @@
         "color": {"field": "Currency", "type": "nominal"}
       }
     }
-  ]
+  ],
+  "config": {"text": {"align": "right", "dx": -5, "dy": 5}}
 }
